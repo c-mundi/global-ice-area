@@ -1,0 +1,520 @@
+- filepaths
+
+********
+* 2018 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+2018: Storm 1/120
+... sea ice area completed
+2018: Storm 2/120
+... sea ice area completed
+2018: Storm 3/120
+... sea ice area completed
+2018: Storm 4/120
+... sea ice area completed
+2018: Storm 5/120
+... sea ice area completed
+2018: Storm 6/120
+... sea ice area completed
+2018: Storm 7/120
+... sea ice area completed
+2018: Storm 8/120
+... sea ice area completed
+2018: Storm 9/120
+... sea ice area completed
+2018: Storm 10/120
+... sea ice area completed
+2018: Storm 11/120
+... sea ice area completed
+2018: Storm 12/120
+... sea ice area completed
+2018: Storm 13/120
+... sea ice area completed
+2018: Storm 14/120
+... sea ice area completed
+2018: Storm 15/120
+... sea ice area completed
+2018: Storm 16/120
+... sea ice area completed
+2018: Storm 17/120
+... sea ice area completed
+2018: Storm 18/120
+... sea ice area completed
+2018: Storm 19/120
+... sea ice area completed
+2018: Storm 20/120
+... sea ice area completed
+2018: Storm 21/120
+... sea ice area completed
+2018: Storm 22/120
+... sea ice area completed
+2018: Storm 23/120
+... sea ice area completed
+2018: Storm 24/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 25/120
+... sea ice area completed
+2018: Storm 26/120
+... sea ice area completed
+2018: Storm 27/120
+... sea ice area completed
+2018: Storm 28/120
+... sea ice area completed
+2018: Storm 29/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 30/120
+... sea ice area completed
+2018: Storm 31/120
+... sea ice area completed
+2018: Storm 32/120
+... sea ice area completed
+2018: Storm 33/120
+... sea ice area completed
+2018: Storm 34/120
+... sea ice area completed
+2018: Storm 35/120
+... sea ice area completed
+2018: Storm 36/120
+... sea ice area completed
+2018: Storm 37/120
+... sea ice area completed
+2018: Storm 38/120
+... sea ice area completed
+2018: Storm 39/120
+... sea ice area completed
+2018: Storm 40/120
+... sea ice area completed
+2018: Storm 41/120
+... sea ice area completed
+2018: Storm 42/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 43/120
+... sea ice area completed
+2018: Storm 44/120
+... sea ice area completed
+2018: Storm 45/120
+... sea ice area completed
+2018: Storm 46/120
+... sea ice area completed
+2018: Storm 47/120
+... sea ice area completed
+2018: Storm 48/120
+... sea ice area completed
+2018: Storm 49/120
+... sea ice area completed
+2018: Storm 50/120
+... sea ice area completed
+2018: Storm 51/120
+... sea ice area completed
+2018: Storm 52/120
+... sea ice area completed
+2018: Storm 53/120
+... sea ice area completed
+2018: Storm 54/120
+... sea ice area completed
+2018: Storm 55/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 56/120
+... sea ice area completed
+2018: Storm 57/120
+... sea ice area completed
+2018: Storm 58/120
+... sea ice area completed
+2018: Storm 59/120
+... sea ice area completed
+2018: Storm 60/120
+... sea ice area completed
+2018: Storm 61/120
+... sea ice area completed
+2018: Storm 62/120
+... sea ice area completed
+2018: Storm 63/120
+... sea ice area completed
+2018: Storm 64/120
+... sea ice area completed
+2018: Storm 65/120
+... sea ice area completed
+2018: Storm 66/120
+... sea ice area completed
+2018: Storm 67/120
+... sea ice area completed
+2018: Storm 68/120
+... sea ice area completed
+2018: Storm 69/120
+... sea ice area completed
+2018: Storm 70/120
+... sea ice area completed
+2018: Storm 71/120
+... sea ice area completed
+2018: Storm 72/120
+... sea ice area completed
+2018: Storm 73/120
+... sea ice area completed
+2018: Storm 74/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 75/120
+... sea ice area completed
+2018: Storm 76/120
+... sea ice area completed
+2018: Storm 77/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 78/120
+... sea ice area completed
+2018: Storm 79/120
+... sea ice area completed
+2018: Storm 80/120
+... sea ice area completed
+2018: Storm 81/120
+... sea ice area completed
+2018: Storm 82/120
+... sea ice area completed
+2018: Storm 83/120
+... sea ice area completed
+2018: Storm 84/120
+... sea ice area completed
+2018: Storm 85/120
+... sea ice area completed
+2018: Storm 86/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 87/120
+... sea ice area completed
+2018: Storm 88/120
+... sea ice area completed
+2018: Storm 89/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 90/120
+... sea ice area completed
+2018: Storm 91/120
+... sea ice area completed
+2018: Storm 92/120
+... sea ice area completed
+2018: Storm 93/120
+... sea ice area completed
+2018: Storm 94/120
+... sea ice area completed
+2018: Storm 95/120
+... sea ice area completed
+2018: Storm 96/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 97/120
+... sea ice area completed
+2018: Storm 98/120
+... sea ice area completed
+2018: Storm 99/120
+... sea ice area completed
+2018: Storm 100/120
+... sea ice area completed
+2018: Storm 101/120
+... sea ice area completed
+2018: Storm 102/120
+... sea ice area completed
+2018: Storm 103/120
+... sea ice area completed
+2018: Storm 104/120
+... sea ice area completed
+2018: Storm 105/120
+... sea ice area completed
+2018: Storm 106/120
+... sea ice area completed
+2018: Storm 107/120
+duplicate storm start
+... sea ice area completed
+2018: Storm 108/120
+... sea ice area completed
+2018: Storm 109/120
+... sea ice area completed
+2018: Storm 110/120
+... sea ice area completed
+2018: Storm 111/120
+... sea ice area completed
+2018: Storm 112/120
+... sea ice area completed
+2018: Storm 113/120
+... sea ice area completed
+2018: Storm 114/120
+... sea ice area completed
+2018: Storm 115/120
+... sea ice area completed
+2018: Storm 116/120
+... sea ice area completed
+2018: Storm 117/120
+... sea ice area completed
+2018: Storm 118/120
+... sea ice area completed
+2018: Storm 119/120
+... sea ice area completed
+2018: Storm 120/120
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (120,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+2018 elapsed time: 
+47.8 minutes
+
+
+********
+* 2019 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+2019: Storm 1/84
+... sea ice area completed
+2019: Storm 2/84
+... sea ice area completed
+2019: Storm 3/84
+... sea ice area completed
+2019: Storm 4/84
+... sea ice area completed
+2019: Storm 5/84
+... sea ice area completed
+2019: Storm 6/84
+... sea ice area completed
+2019: Storm 7/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 8/84
+... sea ice area completed
+2019: Storm 9/84
+... sea ice area completed
+2019: Storm 10/84
+... sea ice area completed
+2019: Storm 11/84
+... sea ice area completed
+2019: Storm 12/84
+... sea ice area completed
+2019: Storm 13/84
+... sea ice area completed
+2019: Storm 14/84
+... sea ice area completed
+2019: Storm 15/84
+... sea ice area completed
+2019: Storm 16/84
+... sea ice area completed
+2019: Storm 17/84
+... sea ice area completed
+2019: Storm 18/84
+... sea ice area completed
+2019: Storm 19/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 20/84
+... sea ice area completed
+2019: Storm 21/84
+... sea ice area completed
+2019: Storm 22/84
+... sea ice area completed
+2019: Storm 23/84
+... sea ice area completed
+2019: Storm 24/84
+... sea ice area completed
+2019: Storm 25/84
+... sea ice area completed
+2019: Storm 26/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 27/84
+... sea ice area completed
+2019: Storm 28/84
+... sea ice area completed
+2019: Storm 29/84
+... sea ice area completed
+2019: Storm 30/84
+... sea ice area completed
+2019: Storm 31/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 32/84
+... sea ice area completed
+2019: Storm 33/84
+... sea ice area completed
+2019: Storm 34/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 35/84
+... sea ice area completed
+2019: Storm 36/84
+... sea ice area completed
+2019: Storm 37/84
+... sea ice area completed
+2019: Storm 38/84
+... sea ice area completed
+2019: Storm 39/84
+... sea ice area completed
+2019: Storm 40/84
+... sea ice area completed
+2019: Storm 41/84
+... sea ice area completed
+2019: Storm 42/84
+... sea ice area completed
+2019: Storm 43/84
+... sea ice area completed
+2019: Storm 44/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 45/84
+... sea ice area completed
+2019: Storm 46/84
+... sea ice area completed
+2019: Storm 47/84
+... sea ice area completed
+2019: Storm 48/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 49/84
+... sea ice area completed
+2019: Storm 50/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 51/84
+... sea ice area completed
+2019: Storm 52/84
+... sea ice area completed
+2019: Storm 53/84
+... sea ice area completed
+2019: Storm 54/84
+... sea ice area completed
+2019: Storm 55/84
+... sea ice area completed
+2019: Storm 56/84
+... sea ice area completed
+2019: Storm 57/84
+... sea ice area completed
+2019: Storm 58/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 59/84
+... sea ice area completed
+2019: Storm 60/84
+... sea ice area completed
+2019: Storm 61/84
+... sea ice area completed
+2019: Storm 62/84
+... sea ice area completed
+2019: Storm 63/84
+... sea ice area completed
+2019: Storm 64/84
+... sea ice area completed
+2019: Storm 65/84
+... sea ice area completed
+2019: Storm 66/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 67/84
+... sea ice area completed
+2019: Storm 68/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 69/84
+... sea ice area completed
+2019: Storm 70/84
+... sea ice area completed
+2019: Storm 71/84
+... sea ice area completed
+2019: Storm 72/84
+... sea ice area completed
+2019: Storm 73/84
+... sea ice area completed
+2019: Storm 74/84
+duplicate storm start
+... sea ice area completed
+2019: Storm 75/84
+... sea ice area completed
+2019: Storm 76/84
+... sea ice area completed
+2019: Storm 77/84
+... sea ice area completed
+2019: Storm 78/84
+... sea ice area completed
+2019: Storm 79/84
+... sea ice area completed
+2019: Storm 80/84
+... sea ice area completed
+2019: Storm 81/84
+... sea ice area completed
+2019: Storm 82/84
+... sea ice area completed
+2019: Storm 83/84
+... sea ice area completed
+2019: Storm 84/84
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (84,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+2019 elapsed time: 
+33.4 minutes
+
+
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_bt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_nt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'qa_of_cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'spatial_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'temporal_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+aa_storm_tseries1_sens.py:192: RuntimeWarning: invalid value encountered in greater
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+aa_storm_tseries1_sens.py:192: RuntimeWarning: invalid value encountered in less_equal
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+/home/mundi/month-hemi/sh_data/myfuncs_aa.py:550: RuntimeWarning: invalid value encountered in less
+  lons1 = np.where(lons1<0, lons1+360, lons1)
+
+

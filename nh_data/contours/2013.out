@@ -1,0 +1,862 @@
+2022-09-14 10:03:28,843 INFO Welcome to the CDS
+2022-09-14 10:03:28,843 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:03:29,046 INFO Request is queued
+2022-09-14 10:03:30,172 INFO Request is running
+2022-09-14 10:04:19,349 INFO Request is completed
+2022-09-14 10:05:21,131 INFO Welcome to the CDS
+2022-09-14 10:05:21,131 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:05:21,329 INFO Request is completed
+2022-09-14 10:05:58,530 INFO Welcome to the CDS
+2022-09-14 10:05:58,531 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:05:58,746 INFO Request is queued
+2022-09-14 10:05:59,873 INFO Request is running
+2022-09-14 10:06:49,053 INFO Request is completed
+2022-09-14 10:08:07,257 INFO Welcome to the CDS
+2022-09-14 10:08:07,258 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:08:07,442 INFO Request is completed
+2022-09-14 10:10:08,877 INFO Welcome to the CDS
+2022-09-14 10:10:08,877 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:10:09,071 INFO Request is completed
+/home/mundi/miniconda3/envs/cyc_loc/lib/python3.8/site-packages/xarray/conventions.py:492: SerializationWarning: variable 'melt_onset_day_seaice_conc_cdr' has multiple fill values {-1, 65535}, decoding all values to NaN.
+  new_vars[k] = decode_cf_variable(
+2022-09-14 10:16:14,650 INFO Welcome to the CDS
+2022-09-14 10:16:14,651 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:14,822 INFO Request is queued
+2022-09-14 10:16:15,949 INFO Request is running
+2022-09-14 10:16:19,959 INFO Request is completed
+2022-09-14 10:16:22,186 INFO Welcome to the CDS
+2022-09-14 10:16:22,187 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:22,399 INFO Request is completed
+2022-09-14 10:16:24,587 INFO Welcome to the CDS
+2022-09-14 10:16:24,588 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:24,747 INFO Request is queued
+2022-09-14 10:16:25,873 INFO Request is running
+2022-09-14 10:16:29,878 INFO Request is completed
+2022-09-14 10:16:31,961 INFO Welcome to the CDS
+2022-09-14 10:16:31,962 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:32,156 INFO Request is completed
+2022-09-14 10:16:34,355 INFO Welcome to the CDS
+2022-09-14 10:16:34,355 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:34,567 INFO Request is completed
+2022-09-14 10:16:36,741 INFO Welcome to the CDS
+2022-09-14 10:16:36,741 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:36,945 INFO Request is queued
+2022-09-14 10:16:38,070 INFO Request is running
+2022-09-14 10:16:42,074 INFO Request is completed
+2022-09-14 10:16:45,012 INFO Welcome to the CDS
+2022-09-14 10:16:45,012 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:45,169 INFO Request is queued
+2022-09-14 10:16:46,294 INFO Request is running
+2022-09-14 10:16:50,299 INFO Request is completed
+2022-09-14 10:16:52,776 INFO Welcome to the CDS
+2022-09-14 10:16:52,777 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:52,964 INFO Request is completed
+2022-09-14 10:16:55,081 INFO Welcome to the CDS
+2022-09-14 10:16:55,081 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:55,274 INFO Request is completed
+2022-09-14 10:16:57,391 INFO Welcome to the CDS
+2022-09-14 10:16:57,391 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:16:57,614 INFO Request is queued
+2022-09-14 10:16:58,743 INFO Request is running
+2022-09-14 10:17:02,987 INFO Request is completed
+2022-09-14 10:17:11,997 INFO Welcome to the CDS
+2022-09-14 10:17:11,997 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:12,177 INFO Request is completed
+2022-09-14 10:17:16,411 INFO Welcome to the CDS
+2022-09-14 10:17:16,412 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:16,597 INFO Request is completed
+2022-09-14 10:17:20,099 INFO Welcome to the CDS
+2022-09-14 10:17:20,099 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:20,281 INFO Request is completed
+2022-09-14 10:17:23,725 INFO Welcome to the CDS
+2022-09-14 10:17:23,725 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:23,888 INFO Request is completed
+2022-09-14 10:17:26,006 INFO Welcome to the CDS
+2022-09-14 10:17:26,007 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:26,210 INFO Request is completed
+2022-09-14 10:17:29,571 INFO Welcome to the CDS
+2022-09-14 10:17:29,571 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:29,728 INFO Request is completed
+2022-09-14 10:17:31,900 INFO Welcome to the CDS
+2022-09-14 10:17:31,900 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:32,046 INFO Request is completed
+2022-09-14 10:17:37,733 INFO Welcome to the CDS
+2022-09-14 10:17:37,733 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:37,875 INFO Request is completed
+2022-09-14 10:17:42,436 INFO Welcome to the CDS
+2022-09-14 10:17:42,437 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:42,663 INFO Request is completed
+2022-09-14 10:17:44,626 INFO Welcome to the CDS
+2022-09-14 10:17:44,626 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:44,830 INFO Request is completed
+2022-09-14 10:17:50,299 INFO Welcome to the CDS
+2022-09-14 10:17:50,300 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:50,479 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:17:52,753 INFO Welcome to the CDS
+2022-09-14 10:17:52,753 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:17:52,914 INFO Request is queued
+2022-09-14 10:17:54,040 INFO Request is running
+2022-09-14 10:17:58,043 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:00,067 INFO Welcome to the CDS
+2022-09-14 10:18:00,067 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:00,299 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+/home/mundi/miniconda3/envs/cyc_loc/lib/python3.8/site-packages/cartopy/mpl/geoaxes.py:1478: UserWarning: No contour levels were found within the data range.
+  result = matplotlib.axes.Axes.contour(self, *args, **kwargs)
+2022-09-14 10:18:04,243 INFO Welcome to the CDS
+2022-09-14 10:18:04,243 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:04,427 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:06,814 INFO Welcome to the CDS
+2022-09-14 10:18:06,814 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:06,984 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:08,999 INFO Welcome to the CDS
+2022-09-14 10:18:09,000 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:09,224 INFO Request is queued
+2022-09-14 10:18:10,350 INFO Request is running
+2022-09-14 10:18:14,353 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:19,659 INFO Welcome to the CDS
+2022-09-14 10:18:19,660 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:20,249 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:24,273 INFO Welcome to the CDS
+2022-09-14 10:18:24,273 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:24,492 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:27,828 INFO Welcome to the CDS
+2022-09-14 10:18:27,828 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:28,027 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:30,286 INFO Welcome to the CDS
+2022-09-14 10:18:30,286 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:30,453 INFO Request is queued
+2022-09-14 10:18:31,579 INFO Request is running
+2022-09-14 10:18:35,584 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:37,795 INFO Welcome to the CDS
+2022-09-14 10:18:37,795 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:37,974 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:39,975 INFO Welcome to the CDS
+2022-09-14 10:18:39,975 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:40,179 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:43,626 INFO Welcome to the CDS
+2022-09-14 10:18:43,626 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:43,876 INFO Request is queued
+2022-09-14 10:18:45,004 INFO Request is running
+2022-09-14 10:18:49,008 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:18:51,084 INFO Welcome to the CDS
+2022-09-14 10:18:51,084 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:18:51,242 INFO Request is queued
+2022-09-14 10:18:53,993 INFO Request is running
+2022-09-14 10:18:59,873 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:19:02,080 INFO Welcome to the CDS
+2022-09-14 10:19:02,080 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:19:02,235 INFO Request is queued
+2022-09-14 10:19:07,366 INFO Request is running
+2022-09-14 10:19:10,869 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:19:14,328 INFO Welcome to the CDS
+2022-09-14 10:19:14,329 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:19:14,543 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:19:16,856 INFO Welcome to the CDS
+2022-09-14 10:19:16,856 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:19:17,052 INFO Request is queued
+2022-09-14 10:19:18,179 INFO Request is running
+2022-09-14 10:19:22,183 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+/home/mundi/miniconda3/envs/cyc_loc/lib/python3.8/site-packages/cartopy/mpl/geoaxes.py:1478: UserWarning: No contour levels were found within the data range.
+  result = matplotlib.axes.Axes.contour(self, *args, **kwargs)
+2022-09-14 10:20:02,245 INFO Welcome to the CDS
+2022-09-14 10:20:02,246 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:02,593 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:05,306 INFO Welcome to the CDS
+2022-09-14 10:20:05,307 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:05,567 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:07,655 INFO Welcome to the CDS
+2022-09-14 10:20:07,655 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:07,833 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:10,157 INFO Welcome to the CDS
+2022-09-14 10:20:10,157 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:10,354 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:12,758 INFO Welcome to the CDS
+2022-09-14 10:20:12,758 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:12,926 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:15,917 INFO Welcome to the CDS
+2022-09-14 10:20:15,918 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:16,105 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:18,339 INFO Welcome to the CDS
+2022-09-14 10:20:18,339 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:18,588 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:22,164 INFO Welcome to the CDS
+2022-09-14 10:20:22,164 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:22,346 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:28,284 INFO Welcome to the CDS
+2022-09-14 10:20:28,285 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:28,427 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:35,397 INFO Welcome to the CDS
+2022-09-14 10:20:35,397 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:35,541 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:38,668 INFO Welcome to the CDS
+2022-09-14 10:20:38,668 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:38,810 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:20:40,845 INFO Welcome to the CDS
+2022-09-14 10:20:40,845 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:20:40,994 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+/home/mundi/miniconda3/envs/cyc_loc/lib/python3.8/site-packages/cartopy/mpl/geoaxes.py:1478: UserWarning: No contour levels were found within the data range.
+  result = matplotlib.axes.Axes.contour(self, *args, **kwargs)
+2022-09-14 10:21:58,010 INFO Welcome to the CDS
+2022-09-14 10:21:58,010 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:21:58,160 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:00,379 INFO Welcome to the CDS
+2022-09-14 10:22:00,379 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:00,521 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:02,623 INFO Welcome to the CDS
+2022-09-14 10:22:02,623 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:02,786 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:06,197 INFO Welcome to the CDS
+2022-09-14 10:22:06,197 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:06,375 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:08,543 INFO Welcome to the CDS
+2022-09-14 10:22:08,543 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:08,706 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:10,835 INFO Welcome to the CDS
+2022-09-14 10:22:10,835 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:11,006 INFO Request is queued
+2022-09-14 10:22:19,644 INFO Request is running
+2022-09-14 10:22:24,837 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:28,160 INFO Welcome to the CDS
+2022-09-14 10:22:28,160 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:28,307 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:30,474 INFO Welcome to the CDS
+2022-09-14 10:22:30,475 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:30,619 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:33,056 INFO Welcome to the CDS
+2022-09-14 10:22:33,057 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:33,303 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:35,602 INFO Welcome to the CDS
+2022-09-14 10:22:35,602 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:36,107 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:38,450 INFO Welcome to the CDS
+2022-09-14 10:22:38,451 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:38,658 INFO Request is queued
+2022-09-14 10:22:41,412 INFO Request is running
+2022-09-14 10:22:47,291 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:52,176 INFO Welcome to the CDS
+2022-09-14 10:22:52,177 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:52,467 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:54,796 INFO Welcome to the CDS
+2022-09-14 10:22:54,796 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:55,015 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:22:57,162 INFO Welcome to the CDS
+2022-09-14 10:22:57,162 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:22:57,437 INFO Request is queued
+2022-09-14 10:23:00,189 INFO Request is running
+2022-09-14 10:23:02,566 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:05,001 INFO Welcome to the CDS
+2022-09-14 10:23:05,001 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:05,240 INFO Request is queued
+2022-09-14 10:23:06,366 INFO Request is running
+2022-09-14 10:23:10,373 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:17,024 INFO Welcome to the CDS
+2022-09-14 10:23:17,025 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:17,269 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:25,773 INFO Welcome to the CDS
+2022-09-14 10:23:25,773 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:26,106 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:30,487 INFO Welcome to the CDS
+2022-09-14 10:23:30,487 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:30,704 INFO Request is queued
+2022-09-14 10:23:35,832 INFO Request is running
+2022-09-14 10:23:39,336 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:42,124 INFO Welcome to the CDS
+2022-09-14 10:23:42,124 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:42,272 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:45,573 INFO Welcome to the CDS
+2022-09-14 10:23:45,573 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:45,764 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:48,552 INFO Welcome to the CDS
+2022-09-14 10:23:48,552 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:48,758 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:53,084 INFO Welcome to the CDS
+2022-09-14 10:23:53,084 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:53,295 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:23:57,773 INFO Welcome to the CDS
+2022-09-14 10:23:57,773 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:23:57,969 INFO Request is queued
+2022-09-14 10:24:03,099 INFO Request is running
+2022-09-14 10:24:06,603 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:24:19,465 INFO Welcome to the CDS
+2022-09-14 10:24:19,466 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:24:19,658 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:24:22,479 INFO Welcome to the CDS
+2022-09-14 10:24:22,479 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:24:22,684 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:24:25,419 INFO Welcome to the CDS
+2022-09-14 10:24:25,420 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:24:25,596 INFO Request is queued
+2022-09-14 10:24:27,102 INFO Request is running
+2022-09-14 10:24:28,728 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:24:34,256 INFO Welcome to the CDS
+2022-09-14 10:24:34,256 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:24:34,474 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:24:44,238 INFO Welcome to the CDS
+2022-09-14 10:24:44,238 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:24:44,538 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:24:51,377 INFO Welcome to the CDS
+2022-09-14 10:24:51,377 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:24:51,633 INFO Request is queued
+2022-09-14 10:24:52,758 INFO Request is running
+2022-09-14 10:24:56,764 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:25:01,901 INFO Welcome to the CDS
+2022-09-14 10:25:01,901 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:25:02,050 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+2022-09-14 10:25:08,055 INFO Welcome to the CDS
+2022-09-14 10:25:08,055 INFO Sending request to https://cds.climate.copernicus.eu/api/v2/resources/reanalysis-era5-single-levels
+2022-09-14 10:25:08,199 INFO Request is completed
+/home/mundi/Summer2022/myfuncs.py:73: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure(figsize=[15,15])
+
+ 
+ 
+Storm 1/17
+
+2013 6 7
+---------
+
+2013 6 8
+---------
+
+2013 6 9
+---------
+
+2013 6 10
+---------
+coords_2013_0607_990
+coords_2013_0607_1000
+coords_2013_0608_990
+coords_2013_0608_1000
+coords_2013_0609_990
+coords_2013_0609_1000
+coords_2013_0610_990
+coords_2013_0610_1000
+*exported*
+Storm 2/17
+
+2013 6 17
+---------
+
+2013 6 18
+---------
+coords_2013_0617_990
+coords_2013_0618_1000
+coords_2013_0618_990
+*exported*
+Storm 3/17
+
+2013 6 19
+---------
+
+2013 6 20
+---------
+
+2013 6 21
+---------
+coords_2013_0619_990
+coords_2013_0619_1000
+coords_2013_0620_990
+coords_2013_0620_1000
+coords_2013_0621_990
+coords_2013_0621_1000
+*exported*
+Storm 4/17
+
+2013 6 28
+---------
+
+2013 6 29
+---------
+
+2013 6 30
+---------
+
+2013 7 1
+---------
+
+2013 7 2
+---------
+
+2013 7 3
+---------
+coords_2013_0628_990
+coords_2013_0628_1000
+coords_2013_0629_990
+coords_2013_0629_1000
+coords_2013_0630_990
+coords_2013_0701_1000
+coords_2013_0702_990
+coords_2013_0702_1000
+coords_2013_0702_990
+coords_2013_0703_1000
+coords_2013_0703_990
+*exported*
+Storm 5/17
+
+2013 7 1
+---------
+
+2013 7 2
+---------
+
+2013 7 3
+---------
+coords_2013_0701_990
+coords_2013_0701_1000
+coords_2013_0702_990
+coords_2013_0703_1000
+*exported*
+Storm 6/17
+
+2013 7 23
+---------
+
+2013 7 24
+---------
+
+2013 7 25
+---------
+
+2013 7 26
+---------
+coords_2013_0723_990
+coords_2013_0724_1000
+coords_2013_0724_990
+coords_2013_0725_1000
+coords_2013_0725_990
+coords_2013_0726_1000
+coords_2013_0726_990
+*exported*
+Storm 7/17
+
+2013 8 5
+---------
+1000: ['8'], ['5']
+
+2013 8 6
+---------
+
+2013 8 7
+---------
+coords_2013_0806_990
+coords_2013_0806_1000
+coords_2013_0807_990
+coords_2013_0807_1000
+*exported*
+Storm 8/17
+
+2013 8 13
+---------
+
+2013 8 14
+---------
+
+2013 8 15
+---------
+
+2013 8 16
+---------
+
+2013 8 17
+---------
+
+2013 8 18
+---------
+
+2013 8 19
+---------
+coords_2013_0813_990
+coords_2013_0814_1000
+coords_2013_0815_990
+coords_2013_0815_1000
+coords_2013_0816_990
+coords_2013_0816_1000
+coords_2013_0817_990
+coords_2013_0817_1000
+coords_2013_0817_990
+coords_2013_0818_1000
+coords_2013_0818_990
+coords_2013_0819_1000
+coords_2013_0819_990
+*exported*
+Storm 9/17
+
+2013 9 4
+---------
+
+2013 9 5
+---------
+
+2013 9 6
+---------
+
+2013 9 7
+---------
+coords_2013_0904_990
+coords_2013_0904_1000
+coords_2013_0905_990
+coords_2013_0905_1000
+coords_2013_0906_990
+coords_2013_0906_1000
+coords_2013_0906_990
+coords_2013_0907_1000
+*exported*
+Storm 10/17
+
+2013 10 1
+---------
+1000: ['10'], ['1']
+
+2013 10 2
+---------
+
+2013 10 3
+---------
+
+2013 10 4
+---------
+
+2013 10 5
+---------
+
+2013 10 6
+---------
+
+2013 10 7
+---------
+
+2013 10 8
+---------
+
+2013 10 9
+---------
+coords_2013_1002_990
+coords_2013_1002_1000
+coords_2013_1003_990
+coords_2013_1003_1000
+coords_2013_1004_990
+coords_2013_1004_1000
+coords_2013_1005_990
+coords_2013_1005_1000
+coords_2013_1006_990
+coords_2013_1006_1000
+coords_2013_1007_990
+coords_2013_1007_1000
+coords_2013_1008_990
+coords_2013_1008_1000
+coords_2013_1009_990
+coords_2013_1009_1000
+*exported*
+Storm 11/17
+
+2013 10 4
+---------
+
+2013 10 5
+---------
+
+2013 10 6
+---------
+
+2013 10 7
+---------
+1000: ['10'], ['7']
+coords_2013_1004_990
+coords_2013_1005_1000
+coords_2013_1005_990
+coords_2013_1006_1000
+coords_2013_1006_990
+*exported*
+Storm 12/17
+
+2013 10 5
+---------
+
+2013 10 6
+---------
+
+2013 10 7
+---------
+
+2013 10 8
+---------
+
+2013 10 9
+---------
+
+2013 10 10
+---------
+coords_2013_1005_990
+coords_2013_1006_1000
+coords_2013_1006_990
+coords_2013_1006_1000
+coords_2013_1007_990
+coords_2013_1007_1000
+coords_2013_1007_990
+coords_2013_1007_1000
+coords_2013_1008_990
+coords_2013_1008_1000
+coords_2013_1009_990
+coords_2013_1010_1000
+coords_2013_1010_990
+*exported*
+Storm 13/17
+
+2013 10 9
+---------
+
+2013 10 10
+---------
+coords_2013_1009_990
+coords_2013_1010_1000
+coords_2013_1010_990
+*exported*
+Storm 14/17
+
+2013 10 11
+---------
+
+2013 10 12
+---------
+
+2013 10 13
+---------
+
+2013 10 14
+---------
+
+2013 10 15
+---------
+
+2013 10 16
+---------
+
+2013 10 17
+---------
+coords_2013_1011_990
+coords_2013_1011_1000
+coords_2013_1012_990
+coords_2013_1012_1000
+coords_2013_1013_990
+coords_2013_1013_1000
+coords_2013_1014_990
+coords_2013_1014_1000
+coords_2013_1015_990
+coords_2013_1015_1000
+coords_2013_1016_990
+coords_2013_1016_1000
+coords_2013_1017_990
+coords_2013_1017_1000
+*exported*
+Storm 15/17
+
+2013 10 18
+---------
+
+2013 10 19
+---------
+
+2013 10 20
+---------
+coords_2013_1018_990
+coords_2013_1019_1000
+coords_2013_1019_990
+coords_2013_1020_1000
+coords_2013_1020_990
+*exported*
+Storm 16/17
+
+2013 10 20
+---------
+
+2013 10 21
+---------
+
+2013 10 22
+---------
+
+2013 10 23
+---------
+
+2013 10 24
+---------
+
+2013 10 25
+---------
+
+2013 10 26
+---------
+
+2013 10 27
+---------
+
+2013 10 28
+---------
+
+2013 10 29
+---------
+
+2013 10 30
+---------
+coords_2013_1020_990
+coords_2013_1020_1000
+coords_2013_1021_990
+coords_2013_1021_1000
+coords_2013_1022_990
+coords_2013_1022_1000
+coords_2013_1023_990
+coords_2013_1023_1000
+coords_2013_1025_990
+coords_2013_1025_1000
+coords_2013_1026_990
+coords_2013_1026_1000
+coords_2013_1027_990
+coords_2013_1027_1000
+coords_2013_1028_990
+coords_2013_1028_1000
+coords_2013_1029_990
+coords_2013_1029_1000
+coords_2013_1030_990
+coords_2013_1030_1000
+*exported*
+Storm 17/17
+
+2013 10 24
+---------
+
+2013 10 25
+---------
+coords_2013_1024_990
+coords_2013_1025_1000
+coords_2013_1025_990
+*exported*
+
+FINISHED STORM DATA COLLECTION
+
+ 
+ 
+------------------
+       done!      
+------------------
+------------------
+elapsed time: 
+21.712890867392222
+

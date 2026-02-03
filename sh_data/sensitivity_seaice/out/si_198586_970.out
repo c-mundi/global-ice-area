@@ -1,0 +1,461 @@
+- filepaths
+
+********
+* 1985 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1985: Storm 1/93
+... sea ice area completed
+1985: Storm 2/93
+... sea ice area completed
+1985: Storm 3/93
+... sea ice area completed
+1985: Storm 4/93
+... sea ice area completed
+1985: Storm 5/93
+... sea ice area completed
+1985: Storm 6/93
+... sea ice area completed
+1985: Storm 7/93
+... sea ice area completed
+1985: Storm 8/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 9/93
+... sea ice area completed
+1985: Storm 10/93
+... sea ice area completed
+1985: Storm 11/93
+... sea ice area completed
+1985: Storm 12/93
+... sea ice area completed
+1985: Storm 13/93
+... sea ice area completed
+1985: Storm 14/93
+... sea ice area completed
+1985: Storm 15/93
+... sea ice area completed
+1985: Storm 16/93
+... sea ice area completed
+1985: Storm 17/93
+... sea ice area completed
+1985: Storm 18/93
+... sea ice area completed
+1985: Storm 19/93
+... sea ice area completed
+1985: Storm 20/93
+... sea ice area completed
+1985: Storm 21/93
+... sea ice area completed
+1985: Storm 22/93
+... sea ice area completed
+1985: Storm 23/93
+... sea ice area completed
+1985: Storm 24/93
+... sea ice area completed
+1985: Storm 25/93
+... sea ice area completed
+1985: Storm 26/93
+... sea ice area completed
+1985: Storm 27/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 28/93
+... sea ice area completed
+1985: Storm 29/93
+... sea ice area completed
+1985: Storm 30/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 31/93
+... sea ice area completed
+1985: Storm 32/93
+... sea ice area completed
+1985: Storm 33/93
+... sea ice area completed
+1985: Storm 34/93
+... sea ice area completed
+1985: Storm 35/93
+... sea ice area completed
+1985: Storm 36/93
+... sea ice area completed
+1985: Storm 37/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 38/93
+... sea ice area completed
+1985: Storm 39/93
+... sea ice area completed
+1985: Storm 40/93
+... sea ice area completed
+1985: Storm 41/93
+... sea ice area completed
+1985: Storm 42/93
+... sea ice area completed
+1985: Storm 43/93
+... sea ice area completed
+1985: Storm 44/93
+... sea ice area completed
+1985: Storm 45/93
+... sea ice area completed
+1985: Storm 46/93
+... sea ice area completed
+1985: Storm 47/93
+... sea ice area completed
+1985: Storm 48/93
+... sea ice area completed
+1985: Storm 49/93
+... sea ice area completed
+1985: Storm 50/93
+... sea ice area completed
+1985: Storm 51/93
+... sea ice area completed
+1985: Storm 52/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 53/93
+... sea ice area completed
+1985: Storm 54/93
+... sea ice area completed
+1985: Storm 55/93
+... sea ice area completed
+1985: Storm 56/93
+... sea ice area completed
+1985: Storm 57/93
+... sea ice area completed
+1985: Storm 58/93
+... sea ice area completed
+1985: Storm 59/93
+... sea ice area completed
+1985: Storm 60/93
+... sea ice area completed
+1985: Storm 61/93
+... sea ice area completed
+1985: Storm 62/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 63/93
+... sea ice area completed
+1985: Storm 64/93
+... sea ice area completed
+1985: Storm 65/93
+... sea ice area completed
+1985: Storm 66/93
+... sea ice area completed
+1985: Storm 67/93
+... sea ice area completed
+1985: Storm 68/93
+... sea ice area completed
+1985: Storm 69/93
+... sea ice area completed
+1985: Storm 70/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 71/93
+... sea ice area completed
+1985: Storm 72/93
+... sea ice area completed
+1985: Storm 73/93
+... sea ice area completed
+1985: Storm 74/93
+... sea ice area completed
+1985: Storm 75/93
+... sea ice area completed
+1985: Storm 76/93
+... sea ice area completed
+1985: Storm 77/93
+... sea ice area completed
+1985: Storm 78/93
+... sea ice area completed
+1985: Storm 79/93
+... sea ice area completed
+1985: Storm 80/93
+... sea ice area completed
+1985: Storm 81/93
+... sea ice area completed
+1985: Storm 82/93
+... sea ice area completed
+1985: Storm 83/93
+... sea ice area completed
+1985: Storm 84/93
+... sea ice area completed
+1985: Storm 85/93
+... sea ice area completed
+1985: Storm 86/93
+... sea ice area completed
+1985: Storm 87/93
+... sea ice area completed
+1985: Storm 88/93
+... sea ice area completed
+1985: Storm 89/93
+... sea ice area completed
+1985: Storm 90/93
+... sea ice area completed
+1985: Storm 91/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 92/93
+... sea ice area completed
+1985: Storm 93/93
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (93,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1985 elapsed time: 
+37.4 minutes
+
+
+********
+* 1986 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1986: Storm 1/85
+... sea ice area completed
+1986: Storm 2/85
+... sea ice area completed
+1986: Storm 3/85
+... sea ice area completed
+1986: Storm 4/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 5/85
+... sea ice area completed
+1986: Storm 6/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 7/85
+... sea ice area completed
+1986: Storm 8/85
+... sea ice area completed
+1986: Storm 9/85
+... sea ice area completed
+1986: Storm 10/85
+... sea ice area completed
+1986: Storm 11/85
+... sea ice area completed
+1986: Storm 12/85
+... sea ice area completed
+1986: Storm 13/85
+... sea ice area completed
+1986: Storm 14/85
+... sea ice area completed
+1986: Storm 15/85
+... sea ice area completed
+1986: Storm 16/85
+... sea ice area completed
+1986: Storm 17/85
+... sea ice area completed
+1986: Storm 18/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 19/85
+... sea ice area completed
+1986: Storm 20/85
+... sea ice area completed
+1986: Storm 21/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 22/85
+... sea ice area completed
+1986: Storm 23/85
+... sea ice area completed
+1986: Storm 24/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 25/85
+... sea ice area completed
+1986: Storm 26/85
+... sea ice area completed
+1986: Storm 27/85
+... sea ice area completed
+1986: Storm 28/85
+... sea ice area completed
+1986: Storm 29/85
+... sea ice area completed
+1986: Storm 30/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 31/85
+... sea ice area completed
+1986: Storm 32/85
+... sea ice area completed
+1986: Storm 33/85
+... sea ice area completed
+1986: Storm 34/85
+... sea ice area completed
+1986: Storm 35/85
+... sea ice area completed
+1986: Storm 36/85
+... sea ice area completed
+1986: Storm 37/85
+... sea ice area completed
+1986: Storm 38/85
+... sea ice area completed
+1986: Storm 39/85
+... sea ice area completed
+1986: Storm 40/85
+... sea ice area completed
+1986: Storm 41/85
+... sea ice area completed
+1986: Storm 42/85
+... sea ice area completed
+1986: Storm 43/85
+... sea ice area completed
+1986: Storm 44/85
+... sea ice area completed
+1986: Storm 45/85
+... sea ice area completed
+1986: Storm 46/85
+... sea ice area completed
+1986: Storm 47/85
+... sea ice area completed
+1986: Storm 48/85
+... sea ice area completed
+1986: Storm 49/85
+... sea ice area completed
+1986: Storm 50/85
+... sea ice area completed
+1986: Storm 51/85
+... sea ice area completed
+1986: Storm 52/85
+... sea ice area completed
+1986: Storm 53/85
+... sea ice area completed
+1986: Storm 54/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 55/85
+... sea ice area completed
+1986: Storm 56/85
+... sea ice area completed
+1986: Storm 57/85
+... sea ice area completed
+1986: Storm 58/85
+... sea ice area completed
+1986: Storm 59/85
+... sea ice area completed
+1986: Storm 60/85
+... sea ice area completed
+1986: Storm 61/85
+... sea ice area completed
+1986: Storm 62/85
+... sea ice area completed
+1986: Storm 63/85
+... sea ice area completed
+1986: Storm 64/85
+... sea ice area completed
+1986: Storm 65/85
+... sea ice area completed
+1986: Storm 66/85
+... sea ice area completed
+1986: Storm 67/85
+... sea ice area completed
+1986: Storm 68/85
+... sea ice area completed
+1986: Storm 69/85
+... sea ice area completed
+1986: Storm 70/85
+... sea ice area completed
+1986: Storm 71/85
+... sea ice area completed
+1986: Storm 72/85
+... sea ice area completed
+1986: Storm 73/85
+... sea ice area completed
+1986: Storm 74/85
+... sea ice area completed
+1986: Storm 75/85
+... sea ice area completed
+1986: Storm 76/85
+... sea ice area completed
+1986: Storm 77/85
+... sea ice area completed
+1986: Storm 78/85
+... sea ice area completed
+1986: Storm 79/85
+... sea ice area completed
+1986: Storm 80/85
+... sea ice area completed
+1986: Storm 81/85
+... sea ice area completed
+1986: Storm 82/85
+... sea ice area completed
+1986: Storm 83/85
+... sea ice area completed
+1986: Storm 84/85
+... sea ice area completed
+1986: Storm 85/85
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (85,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1986 elapsed time: 
+32.5 minutes
+
+
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_bt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_nt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'qa_of_cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'spatial_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'temporal_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+aa_storm_tseries1_sens.py:193: RuntimeWarning: invalid value encountered in greater
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+aa_storm_tseries1_sens.py:193: RuntimeWarning: invalid value encountered in less_equal
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+/home/mundi/month-hemi/sh_data/myfuncs_aa.py:550: RuntimeWarning: invalid value encountered in less
+  lons1 = np.where(lons1<0, lons1+360, lons1)
+
+

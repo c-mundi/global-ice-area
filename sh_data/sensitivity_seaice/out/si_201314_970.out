@@ -1,0 +1,519 @@
+- filepaths
+
+********
+* 2013 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+2013: Storm 1/104
+... sea ice area completed
+2013: Storm 2/104
+duplicate storm start
+... sea ice area completed
+2013: Storm 3/104
+... sea ice area completed
+2013: Storm 4/104
+... sea ice area completed
+2013: Storm 5/104
+... sea ice area completed
+2013: Storm 6/104
+... sea ice area completed
+2013: Storm 7/104
+... sea ice area completed
+2013: Storm 8/104
+... sea ice area completed
+2013: Storm 9/104
+... sea ice area completed
+2013: Storm 10/104
+... sea ice area completed
+2013: Storm 11/104
+... sea ice area completed
+2013: Storm 12/104
+... sea ice area completed
+2013: Storm 13/104
+... sea ice area completed
+2013: Storm 14/104
+... sea ice area completed
+2013: Storm 15/104
+... sea ice area completed
+2013: Storm 16/104
+... sea ice area completed
+2013: Storm 17/104
+... sea ice area completed
+2013: Storm 18/104
+... sea ice area completed
+2013: Storm 19/104
+... sea ice area completed
+2013: Storm 20/104
+... sea ice area completed
+2013: Storm 21/104
+... sea ice area completed
+2013: Storm 22/104
+... sea ice area completed
+2013: Storm 23/104
+... sea ice area completed
+2013: Storm 24/104
+... sea ice area completed
+2013: Storm 25/104
+... sea ice area completed
+2013: Storm 26/104
+... sea ice area completed
+2013: Storm 27/104
+... sea ice area completed
+2013: Storm 28/104
+... sea ice area completed
+2013: Storm 29/104
+... sea ice area completed
+2013: Storm 30/104
+... sea ice area completed
+2013: Storm 31/104
+... sea ice area completed
+2013: Storm 32/104
+... sea ice area completed
+2013: Storm 33/104
+... sea ice area completed
+2013: Storm 34/104
+duplicate storm start
+... sea ice area completed
+2013: Storm 35/104
+duplicate storm start
+... sea ice area completed
+2013: Storm 36/104
+... sea ice area completed
+2013: Storm 37/104
+... sea ice area completed
+2013: Storm 38/104
+... sea ice area completed
+2013: Storm 39/104
+... sea ice area completed
+2013: Storm 40/104
+... sea ice area completed
+2013: Storm 41/104
+... sea ice area completed
+2013: Storm 42/104
+... sea ice area completed
+2013: Storm 43/104
+... sea ice area completed
+2013: Storm 44/104
+... sea ice area completed
+2013: Storm 45/104
+... sea ice area completed
+2013: Storm 46/104
+... sea ice area completed
+2013: Storm 47/104
+... sea ice area completed
+2013: Storm 48/104
+... sea ice area completed
+2013: Storm 49/104
+... sea ice area completed
+2013: Storm 50/104
+... sea ice area completed
+2013: Storm 51/104
+... sea ice area completed
+2013: Storm 52/104
+... sea ice area completed
+2013: Storm 53/104
+... sea ice area completed
+2013: Storm 54/104
+duplicate storm start
+... sea ice area completed
+2013: Storm 55/104
+... sea ice area completed
+2013: Storm 56/104
+... sea ice area completed
+2013: Storm 57/104
+... sea ice area completed
+2013: Storm 58/104
+... sea ice area completed
+2013: Storm 59/104
+... sea ice area completed
+2013: Storm 60/104
+... sea ice area completed
+2013: Storm 61/104
+duplicate storm start
+... sea ice area completed
+2013: Storm 62/104
+... sea ice area completed
+2013: Storm 63/104
+... sea ice area completed
+2013: Storm 64/104
+... sea ice area completed
+2013: Storm 65/104
+... sea ice area completed
+2013: Storm 66/104
+... sea ice area completed
+2013: Storm 67/104
+... sea ice area completed
+2013: Storm 68/104
+... sea ice area completed
+2013: Storm 69/104
+... sea ice area completed
+2013: Storm 70/104
+... sea ice area completed
+2013: Storm 71/104
+... sea ice area completed
+2013: Storm 72/104
+... sea ice area completed
+2013: Storm 73/104
+... sea ice area completed
+2013: Storm 74/104
+... sea ice area completed
+2013: Storm 75/104
+... sea ice area completed
+2013: Storm 76/104
+... sea ice area completed
+2013: Storm 77/104
+... sea ice area completed
+2013: Storm 78/104
+... sea ice area completed
+2013: Storm 79/104
+... sea ice area completed
+2013: Storm 80/104
+... sea ice area completed
+2013: Storm 81/104
+duplicate storm start
+... sea ice area completed
+2013: Storm 82/104
+... sea ice area completed
+2013: Storm 83/104
+... sea ice area completed
+2013: Storm 84/104
+... sea ice area completed
+2013: Storm 85/104
+... sea ice area completed
+2013: Storm 86/104
+... sea ice area completed
+2013: Storm 87/104
+... sea ice area completed
+2013: Storm 88/104
+... sea ice area completed
+2013: Storm 89/104
+... sea ice area completed
+2013: Storm 90/104
+... sea ice area completed
+2013: Storm 91/104
+... sea ice area completed
+2013: Storm 92/104
+... sea ice area completed
+2013: Storm 93/104
+... sea ice area completed
+2013: Storm 94/104
+... sea ice area completed
+2013: Storm 95/104
+duplicate storm start
+... sea ice area completed
+2013: Storm 96/104
+... sea ice area completed
+2013: Storm 97/104
+... sea ice area completed
+2013: Storm 98/104
+... sea ice area completed
+2013: Storm 99/104
+... sea ice area completed
+2013: Storm 100/104
+... sea ice area completed
+2013: Storm 101/104
+... sea ice area completed
+2013: Storm 102/104
+... sea ice area completed
+2013: Storm 103/104
+... sea ice area completed
+2013: Storm 104/104
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (104,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+2013 elapsed time: 
+41.6 minutes
+
+
+********
+* 2014 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+2014: Storm 1/102
+... sea ice area completed
+2014: Storm 2/102
+... sea ice area completed
+2014: Storm 3/102
+... sea ice area completed
+2014: Storm 4/102
+... sea ice area completed
+2014: Storm 5/102
+... sea ice area completed
+2014: Storm 6/102
+... sea ice area completed
+2014: Storm 7/102
+... sea ice area completed
+2014: Storm 8/102
+... sea ice area completed
+2014: Storm 9/102
+... sea ice area completed
+2014: Storm 10/102
+... sea ice area completed
+2014: Storm 11/102
+... sea ice area completed
+2014: Storm 12/102
+... sea ice area completed
+2014: Storm 13/102
+... sea ice area completed
+2014: Storm 14/102
+... sea ice area completed
+2014: Storm 15/102
+... sea ice area completed
+2014: Storm 16/102
+... sea ice area completed
+2014: Storm 17/102
+... sea ice area completed
+2014: Storm 18/102
+... sea ice area completed
+2014: Storm 19/102
+... sea ice area completed
+2014: Storm 20/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 21/102
+... sea ice area completed
+2014: Storm 22/102
+... sea ice area completed
+2014: Storm 23/102
+... sea ice area completed
+2014: Storm 24/102
+... sea ice area completed
+2014: Storm 25/102
+... sea ice area completed
+2014: Storm 26/102
+... sea ice area completed
+2014: Storm 27/102
+... sea ice area completed
+2014: Storm 28/102
+... sea ice area completed
+2014: Storm 29/102
+... sea ice area completed
+2014: Storm 30/102
+... sea ice area completed
+2014: Storm 31/102
+... sea ice area completed
+2014: Storm 32/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 33/102
+... sea ice area completed
+2014: Storm 34/102
+... sea ice area completed
+2014: Storm 35/102
+... sea ice area completed
+2014: Storm 36/102
+... sea ice area completed
+2014: Storm 37/102
+... sea ice area completed
+2014: Storm 38/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 39/102
+... sea ice area completed
+2014: Storm 40/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 41/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 42/102
+... sea ice area completed
+2014: Storm 43/102
+... sea ice area completed
+2014: Storm 44/102
+... sea ice area completed
+2014: Storm 45/102
+... sea ice area completed
+2014: Storm 46/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 47/102
+... sea ice area completed
+2014: Storm 48/102
+... sea ice area completed
+2014: Storm 49/102
+... sea ice area completed
+2014: Storm 50/102
+... sea ice area completed
+2014: Storm 51/102
+... sea ice area completed
+2014: Storm 52/102
+... sea ice area completed
+2014: Storm 53/102
+... sea ice area completed
+2014: Storm 54/102
+... sea ice area completed
+2014: Storm 55/102
+... sea ice area completed
+2014: Storm 56/102
+... sea ice area completed
+2014: Storm 57/102
+... sea ice area completed
+2014: Storm 58/102
+... sea ice area completed
+2014: Storm 59/102
+... sea ice area completed
+2014: Storm 60/102
+... sea ice area completed
+2014: Storm 61/102
+... sea ice area completed
+2014: Storm 62/102
+... sea ice area completed
+2014: Storm 63/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 64/102
+... sea ice area completed
+2014: Storm 65/102
+... sea ice area completed
+2014: Storm 66/102
+... sea ice area completed
+2014: Storm 67/102
+... sea ice area completed
+2014: Storm 68/102
+... sea ice area completed
+2014: Storm 69/102
+... sea ice area completed
+2014: Storm 70/102
+... sea ice area completed
+2014: Storm 71/102
+... sea ice area completed
+2014: Storm 72/102
+... sea ice area completed
+2014: Storm 73/102
+... sea ice area completed
+2014: Storm 74/102
+... sea ice area completed
+2014: Storm 75/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 76/102
+... sea ice area completed
+2014: Storm 77/102
+... sea ice area completed
+2014: Storm 78/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 79/102
+... sea ice area completed
+2014: Storm 80/102
+... sea ice area completed
+2014: Storm 81/102
+... sea ice area completed
+2014: Storm 82/102
+... sea ice area completed
+2014: Storm 83/102
+... sea ice area completed
+2014: Storm 84/102
+... sea ice area completed
+2014: Storm 85/102
+... sea ice area completed
+2014: Storm 86/102
+... sea ice area completed
+2014: Storm 87/102
+... sea ice area completed
+2014: Storm 88/102
+... sea ice area completed
+2014: Storm 89/102
+... sea ice area completed
+2014: Storm 90/102
+... sea ice area completed
+2014: Storm 91/102
+... sea ice area completed
+2014: Storm 92/102
+... sea ice area completed
+2014: Storm 93/102
+... sea ice area completed
+2014: Storm 94/102
+... sea ice area completed
+2014: Storm 95/102
+... sea ice area completed
+2014: Storm 96/102
+... sea ice area completed
+2014: Storm 97/102
+... sea ice area completed
+2014: Storm 98/102
+... sea ice area completed
+2014: Storm 99/102
+... sea ice area completed
+2014: Storm 100/102
+duplicate storm start
+... sea ice area completed
+2014: Storm 101/102
+... sea ice area completed
+2014: Storm 102/102
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (102,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+2014 elapsed time: 
+40.7 minutes
+
+
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_bt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_nt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'qa_of_cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'spatial_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'temporal_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+aa_storm_tseries1_sens.py:192: RuntimeWarning: invalid value encountered in greater
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+aa_storm_tseries1_sens.py:192: RuntimeWarning: invalid value encountered in less_equal
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+/home/mundi/month-hemi/sh_data/myfuncs_aa.py:550: RuntimeWarning: invalid value encountered in less
+  lons1 = np.where(lons1<0, lons1+360, lons1)
+
+

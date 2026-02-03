@@ -1,0 +1,268 @@
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_bt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_nt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'qa_of_cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'spatial_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'temporal_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+aa_storm_tseries1_sens.py:193: RuntimeWarning: invalid value encountered in greater
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+aa_storm_tseries1_sens.py:193: RuntimeWarning: invalid value encountered in less_equal
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+/home/mundi/month-hemi/sh_data/myfuncs_aa.py:550: RuntimeWarning: invalid value encountered in less
+  lons1 = np.where(lons1<0, lons1+360, lons1)
+Traceback (most recent call last):
+  File "aa_storm_tseries1_sens.py", line 115, in <module>
+    [startdate, enddate] = mf.readCensus(census_path+census_name + str(year)+'.csv' , convertDT=True)[0]
+  File "/home/mundi/month-hemi/sh_data/myfuncs_aa.py", line 107, in readCensus
+    csv_file = open(file,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mundi/month-hemi/sh_data/census/census_1992.csv'
+
+ERROR conda.cli.main_run:execute(49): `conda run python aa_storm_tseries1_sens.py` failed. (See above for error)
+- filepaths
+
+********
+* 1991 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1991: Storm 1/95
+... sea ice area completed
+1991: Storm 2/95
+... sea ice area completed
+1991: Storm 3/95
+... sea ice area completed
+1991: Storm 4/95
+... sea ice area completed
+1991: Storm 5/95
+... sea ice area completed
+1991: Storm 6/95
+... sea ice area completed
+1991: Storm 7/95
+... sea ice area completed
+1991: Storm 8/95
+... sea ice area completed
+1991: Storm 9/95
+... sea ice area completed
+1991: Storm 10/95
+... sea ice area completed
+1991: Storm 11/95
+... sea ice area completed
+1991: Storm 12/95
+... sea ice area completed
+1991: Storm 13/95
+... sea ice area completed
+1991: Storm 14/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 15/95
+... sea ice area completed
+1991: Storm 16/95
+... sea ice area completed
+1991: Storm 17/95
+... sea ice area completed
+1991: Storm 18/95
+... sea ice area completed
+1991: Storm 19/95
+... sea ice area completed
+1991: Storm 20/95
+... sea ice area completed
+1991: Storm 21/95
+... sea ice area completed
+1991: Storm 22/95
+... sea ice area completed
+1991: Storm 23/95
+... sea ice area completed
+1991: Storm 24/95
+... sea ice area completed
+1991: Storm 25/95
+... sea ice area completed
+1991: Storm 26/95
+... sea ice area completed
+1991: Storm 27/95
+... sea ice area completed
+1991: Storm 28/95
+... sea ice area completed
+1991: Storm 29/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 30/95
+... sea ice area completed
+1991: Storm 31/95
+... sea ice area completed
+1991: Storm 32/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 33/95
+... sea ice area completed
+1991: Storm 34/95
+... sea ice area completed
+1991: Storm 35/95
+... sea ice area completed
+1991: Storm 36/95
+... sea ice area completed
+1991: Storm 37/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 38/95
+... sea ice area completed
+1991: Storm 39/95
+... sea ice area completed
+1991: Storm 40/95
+... sea ice area completed
+1991: Storm 41/95
+... sea ice area completed
+1991: Storm 42/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 43/95
+... sea ice area completed
+1991: Storm 44/95
+... sea ice area completed
+1991: Storm 45/95
+... sea ice area completed
+1991: Storm 46/95
+... sea ice area completed
+1991: Storm 47/95
+... sea ice area completed
+1991: Storm 48/95
+... sea ice area completed
+1991: Storm 49/95
+... sea ice area completed
+1991: Storm 50/95
+... sea ice area completed
+1991: Storm 51/95
+... sea ice area completed
+1991: Storm 52/95
+... sea ice area completed
+1991: Storm 53/95
+... sea ice area completed
+1991: Storm 54/95
+... sea ice area completed
+1991: Storm 55/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 56/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 57/95
+... sea ice area completed
+1991: Storm 58/95
+... sea ice area completed
+1991: Storm 59/95
+... sea ice area completed
+1991: Storm 60/95
+... sea ice area completed
+1991: Storm 61/95
+... sea ice area completed
+1991: Storm 62/95
+... sea ice area completed
+1991: Storm 63/95
+... sea ice area completed
+1991: Storm 64/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 65/95
+... sea ice area completed
+1991: Storm 66/95
+... sea ice area completed
+1991: Storm 67/95
+... sea ice area completed
+1991: Storm 68/95
+... sea ice area completed
+1991: Storm 69/95
+... sea ice area completed
+1991: Storm 70/95
+... sea ice area completed
+1991: Storm 71/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 72/95
+... sea ice area completed
+1991: Storm 73/95
+... sea ice area completed
+1991: Storm 74/95
+... sea ice area completed
+1991: Storm 75/95
+... sea ice area completed
+1991: Storm 76/95
+... sea ice area completed
+1991: Storm 77/95
+... sea ice area completed
+1991: Storm 78/95
+... sea ice area completed
+1991: Storm 79/95
+... sea ice area completed
+1991: Storm 80/95
+... sea ice area completed
+1991: Storm 81/95
+... sea ice area completed
+1991: Storm 82/95
+... sea ice area completed
+1991: Storm 83/95
+... sea ice area completed
+1991: Storm 84/95
+... sea ice area completed
+1991: Storm 85/95
+... sea ice area completed
+1991: Storm 86/95
+... sea ice area completed
+1991: Storm 87/95
+... sea ice area completed
+1991: Storm 88/95
+... sea ice area completed
+1991: Storm 89/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 90/95
+... sea ice area completed
+1991: Storm 91/95
+... sea ice area completed
+1991: Storm 92/95
+... sea ice area completed
+1991: Storm 93/95
+... sea ice area completed
+1991: Storm 94/95
+... sea ice area completed
+1991: Storm 95/95
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (95,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1991 elapsed time: 
+37.5 minutes
+
+
+********
+* 1992 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+

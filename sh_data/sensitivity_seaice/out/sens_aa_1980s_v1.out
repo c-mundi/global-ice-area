@@ -1,0 +1,616 @@
+- filepaths
+
+********
+* 1982 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1982: Storm 1/101
+... sea ice area completed
+1982: Storm 2/101
+... sea ice area completed
+1982: Storm 3/101
+... sea ice area completed
+1982: Storm 4/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 5/101
+... sea ice area completed
+1982: Storm 6/101
+... sea ice area completed
+1982: Storm 7/101
+... sea ice area completed
+1982: Storm 8/101
+... sea ice area completed
+1982: Storm 9/101
+... sea ice area completed
+1982: Storm 10/101
+... sea ice area completed
+1982: Storm 11/101
+... sea ice area completed
+1982: Storm 12/101
+... sea ice area completed
+1982: Storm 13/101
+... sea ice area completed
+1982: Storm 14/101
+... sea ice area completed
+1982: Storm 15/101
+... sea ice area completed
+1982: Storm 16/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 17/101
+... sea ice area completed
+1982: Storm 18/101
+... sea ice area completed
+1982: Storm 19/101
+... sea ice area completed
+1982: Storm 20/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 21/101
+... sea ice area completed
+1982: Storm 22/101
+... sea ice area completed
+1982: Storm 23/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 24/101
+... sea ice area completed
+1982: Storm 25/101
+... sea ice area completed
+1982: Storm 26/101
+... sea ice area completed
+1982: Storm 27/101
+... sea ice area completed
+1982: Storm 28/101
+... sea ice area completed
+1982: Storm 29/101
+... sea ice area completed
+1982: Storm 30/101
+... sea ice area completed
+1982: Storm 31/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 32/101
+... sea ice area completed
+1982: Storm 33/101
+... sea ice area completed
+1982: Storm 34/101
+... sea ice area completed
+1982: Storm 35/101
+... sea ice area completed
+1982: Storm 36/101
+... sea ice area completed
+1982: Storm 37/101
+... sea ice area completed
+1982: Storm 38/101
+... sea ice area completed
+1982: Storm 39/101
+... sea ice area completed
+1982: Storm 40/101
+... sea ice area completed
+1982: Storm 41/101
+... sea ice area completed
+1982: Storm 42/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 43/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 44/101
+... sea ice area completed
+1982: Storm 45/101
+... sea ice area completed
+1982: Storm 46/101
+... sea ice area completed
+1982: Storm 47/101
+... sea ice area completed
+1982: Storm 48/101
+... sea ice area completed
+1982: Storm 49/101
+... sea ice area completed
+1982: Storm 50/101
+... sea ice area completed
+1982: Storm 51/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 52/101
+... sea ice area completed
+1982: Storm 53/101
+... sea ice area completed
+1982: Storm 54/101
+... sea ice area completed
+1982: Storm 55/101
+... sea ice area completed
+1982: Storm 56/101
+... sea ice area completed
+1982: Storm 57/101
+... sea ice area completed
+1982: Storm 58/101
+... sea ice area completed
+1982: Storm 59/101
+... sea ice area completed
+1982: Storm 60/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 61/101
+... sea ice area completed
+1982: Storm 62/101
+... sea ice area completed
+1982: Storm 63/101
+... sea ice area completed
+1982: Storm 64/101
+... sea ice area completed
+1982: Storm 65/101
+... sea ice area completed
+1982: Storm 66/101
+... sea ice area completed
+1982: Storm 67/101
+... sea ice area completed
+1982: Storm 68/101
+... sea ice area completed
+1982: Storm 69/101
+... sea ice area completed
+1982: Storm 70/101
+... sea ice area completed
+1982: Storm 71/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 72/101
+... sea ice area completed
+1982: Storm 73/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 74/101
+... sea ice area completed
+1982: Storm 75/101
+... sea ice area completed
+1982: Storm 76/101
+... sea ice area completed
+1982: Storm 77/101
+... sea ice area completed
+1982: Storm 78/101
+... sea ice area completed
+1982: Storm 79/101
+... sea ice area completed
+1982: Storm 80/101
+... sea ice area completed
+1982: Storm 81/101
+... sea ice area completed
+1982: Storm 82/101
+... sea ice area completed
+1982: Storm 83/101
+... sea ice area completed
+1982: Storm 84/101
+... sea ice area completed
+1982: Storm 85/101
+... sea ice area completed
+1982: Storm 86/101
+... sea ice area completed
+1982: Storm 87/101
+... sea ice area completed
+1982: Storm 88/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 89/101
+... sea ice area completed
+1982: Storm 90/101
+... sea ice area completed
+1982: Storm 91/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 92/101
+... sea ice area completed
+1982: Storm 93/101
+... sea ice area completed
+1982: Storm 94/101
+... sea ice area completed
+1982: Storm 95/101
+... sea ice area completed
+1982: Storm 96/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 97/101
+... sea ice area completed
+1982: Storm 98/101
+... sea ice area completed
+1982: Storm 99/101
+... sea ice area completed
+1982: Storm 100/101
+... sea ice area completed
+1982: Storm 101/101
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (101,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+*ERROR* ... saving nc file
+--------------------------
+analysis ranges,  (101, 22)
+sea ice,  (101, 22) (101, 0)
+
+
+conflicting sizes for dimension 'time': length 0 on 'sia_clim_miz2_990' and length 22 on 'analysis_ranges'
+Traceback (most recent call last):
+  File "aa_storm_tseries1_sens.py", line 419, in <module>
+    ds = xr.Dataset(data_vars=data_vars,
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/dataset.py", line 687, in __init__
+    variables, coord_names, dims, indexes, _ = merge_data_and_coords(
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/merge.py", line 467, in merge_data_and_coords
+    return merge_core(
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/merge.py", line 619, in merge_core
+    dims = calculate_dimensions(variables)
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/dataset.py", line 206, in calculate_dimensions
+    raise ValueError(
+ValueError: conflicting sizes for dimension 'time': length 0 on 'sia_clim_miz2_990' and length 22 on 'analysis_ranges'
+
+
+ 
+ 
+------------------
+       done!      
+------------------
+1982 elapsed time: 
+4.6 minutes
+
+
+********
+* 1983 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1983: Storm 1/98
+... sea ice area completed
+1983: Storm 2/98
+... sea ice area completed
+1983: Storm 3/98
+... sea ice area completed
+1983: Storm 4/98
+... sea ice area completed
+1983: Storm 5/98
+... sea ice area completed
+1983: Storm 6/98
+... sea ice area completed
+1983: Storm 7/98
+... sea ice area completed
+1983: Storm 8/98
+... sea ice area completed
+1983: Storm 9/98
+... sea ice area completed
+1983: Storm 10/98
+... sea ice area completed
+1983: Storm 11/98
+... sea ice area completed
+1983: Storm 12/98
+... sea ice area completed
+1983: Storm 13/98
+... sea ice area completed
+1983: Storm 14/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 15/98
+... sea ice area completed
+1983: Storm 16/98
+... sea ice area completed
+1983: Storm 17/98
+... sea ice area completed
+1983: Storm 18/98
+... sea ice area completed
+1983: Storm 19/98
+... sea ice area completed
+1983: Storm 20/98
+... sea ice area completed
+1983: Storm 21/98
+... sea ice area completed
+1983: Storm 22/98
+... sea ice area completed
+1983: Storm 23/98
+... sea ice area completed
+1983: Storm 24/98
+... sea ice area completed
+1983: Storm 25/98
+... sea ice area completed
+1983: Storm 26/98
+... sea ice area completed
+1983: Storm 27/98
+... sea ice area completed
+1983: Storm 28/98
+... sea ice area completed
+1983: Storm 29/98
+... sea ice area completed
+1983: Storm 30/98
+... sea ice area completed
+1983: Storm 31/98
+... sea ice area completed
+1983: Storm 32/98
+... sea ice area completed
+1983: Storm 33/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 34/98
+... sea ice area completed
+1983: Storm 35/98
+... sea ice area completed
+1983: Storm 36/98
+... sea ice area completed
+1983: Storm 37/98
+... sea ice area completed
+1983: Storm 38/98
+... sea ice area completed
+1983: Storm 39/98
+... sea ice area completed
+1983: Storm 40/98
+... sea ice area completed
+1983: Storm 41/98
+... sea ice area completed
+1983: Storm 42/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 43/98
+... sea ice area completed
+1983: Storm 44/98
+... sea ice area completed
+1983: Storm 45/98
+... sea ice area completed
+1983: Storm 46/98
+... sea ice area completed
+1983: Storm 47/98
+... sea ice area completed
+1983: Storm 48/98
+... sea ice area completed
+1983: Storm 49/98
+... sea ice area completed
+1983: Storm 50/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 51/98
+... sea ice area completed
+1983: Storm 52/98
+... sea ice area completed
+1983: Storm 53/98
+... sea ice area completed
+1983: Storm 54/98
+... sea ice area completed
+1983: Storm 55/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 56/98
+... sea ice area completed
+1983: Storm 57/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 58/98
+... sea ice area completed
+1983: Storm 59/98
+... sea ice area completed
+1983: Storm 60/98
+... sea ice area completed
+1983: Storm 61/98
+... sea ice area completed
+1983: Storm 62/98
+... sea ice area completed
+1983: Storm 63/98
+... sea ice area completed
+1983: Storm 64/98
+... sea ice area completed
+1983: Storm 65/98
+... sea ice area completed
+1983: Storm 66/98
+... sea ice area completed
+1983: Storm 67/98
+... sea ice area completed
+1983: Storm 68/98
+... sea ice area completed
+1983: Storm 69/98
+... sea ice area completed
+1983: Storm 70/98
+... sea ice area completed
+1983: Storm 71/98
+... sea ice area completed
+1983: Storm 72/98
+... sea ice area completed
+1983: Storm 73/98
+... sea ice area completed
+1983: Storm 74/98
+... sea ice area completed
+1983: Storm 75/98
+... sea ice area completed
+1983: Storm 76/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 77/98
+... sea ice area completed
+1983: Storm 78/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 79/98
+... sea ice area completed
+1983: Storm 80/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 81/98
+... sea ice area completed
+1983: Storm 82/98
+... sea ice area completed
+1983: Storm 83/98
+... sea ice area completed
+1983: Storm 84/98
+... sea ice area completed
+1983: Storm 85/98
+... sea ice area completed
+1983: Storm 86/98
+... sea ice area completed
+1983: Storm 87/98
+... sea ice area completed
+1983: Storm 88/98
+... sea ice area completed
+1983: Storm 89/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 90/98
+... sea ice area completed
+1983: Storm 91/98
+... sea ice area completed
+1983: Storm 92/98
+... sea ice area completed
+1983: Storm 93/98
+... sea ice area completed
+1983: Storm 94/98
+... sea ice area completed
+1983: Storm 95/98
+... sea ice area completed
+1983: Storm 96/98
+... sea ice area completed
+1983: Storm 97/98
+... sea ice area completed
+1983: Storm 98/98
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (98,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+*ERROR* ... saving nc file
+--------------------------
+analysis ranges,  (98, 22)
+sea ice,  (98, 22) (98, 0)
+
+
+conflicting sizes for dimension 'time': length 0 on 'sia_clim_miz2_990' and length 22 on 'analysis_ranges'
+Traceback (most recent call last):
+  File "aa_storm_tseries1_sens.py", line 419, in <module>
+    ds = xr.Dataset(data_vars=data_vars,
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/dataset.py", line 687, in __init__
+    variables, coord_names, dims, indexes, _ = merge_data_and_coords(
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/merge.py", line 467, in merge_data_and_coords
+    return merge_core(
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/merge.py", line 619, in merge_core
+    dims = calculate_dimensions(variables)
+  File "/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/core/dataset.py", line 206, in calculate_dimensions
+    raise ValueError(
+ValueError: conflicting sizes for dimension 'time': length 0 on 'sia_clim_miz2_990' and length 22 on 'analysis_ranges'
+
+
+ 
+ 
+------------------
+       done!      
+------------------
+1983 elapsed time: 
+4.8 minutes
+
+
+********
+* 1984 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1984: Storm 1/79
+... sea ice area completed
+1984: Storm 2/79
+... sea ice area completed
+1984: Storm 3/79
+... sea ice area completed
+1984: Storm 4/79
+... sea ice area completed
+1984: Storm 5/79
+... sea ice area completed
+1984: Storm 6/79
+... sea ice area completed
+1984: Storm 7/79
+... sea ice area completed
+1984: Storm 8/79
+... sea ice area completed
+1984: Storm 9/79
+... sea ice area completed
+1984: Storm 10/79
+... sea ice area completed
+1984: Storm 11/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 12/79
+... sea ice area completed
+1984: Storm 13/79
+... sea ice area completed
+1984: Storm 14/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 15/79
+... sea ice area completed
+1984: Storm 16/79
+... sea ice area completed
+1984: Storm 17/79
+... sea ice area completed
+1984: Storm 18/79
+... sea ice area completed
+1984: Storm 19/79
+... sea ice area completed
+1984: Storm 20/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 21/79
+... sea ice area completed
+1984: Storm 22/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 23/79
+... sea ice area completed
+1984: Storm 24/79
+... sea ice area completed
+1984: Storm 25/79
+... sea ice area completed
+1984: Storm 26/79
+... sea ice area completed
+1984: Storm 27/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 28/79
+... sea ice area completed
+1984: Storm 29/79
+... sea ice area completed
+1984: Storm 30/79
+... sea ice area completed
+1984: Storm 31/79
+... sea ice area completed
+1984: Storm 32/79
+... sea ice area completed
+1984: Storm 33/79
+... sea ice area completed
+1984: Storm 34/79
+Terminated
+
+ERROR conda.cli.main_run:execute(49): `conda run python aa_storm_tseries1_sens.py` failed. (See above for error)
+

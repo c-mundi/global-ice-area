@@ -1,0 +1,21 @@
+Terminated
+
+ERROR conda.cli.main_run:execute(49): `conda run python aa_storm_tseries1_sens.py` failed. (See above for error)
+- filepaths
+
+********
+* 2019 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+2019: Storm 1/84
+... sea ice area completed
+2019: Storm 2/84
+... sea ice area completed
+2019: Storm 3/84
+... sea ice area completed
+2019: Storm 4/84
+

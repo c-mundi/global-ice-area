@@ -1,0 +1,2571 @@
+- filepaths
+
+********
+* 1982 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1982: Storm 1/101
+... sea ice area completed
+1982: Storm 2/101
+... sea ice area completed
+1982: Storm 3/101
+... sea ice area completed
+1982: Storm 4/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 5/101
+... sea ice area completed
+1982: Storm 6/101
+... sea ice area completed
+1982: Storm 7/101
+... sea ice area completed
+1982: Storm 8/101
+... sea ice area completed
+1982: Storm 9/101
+... sea ice area completed
+1982: Storm 10/101
+... sea ice area completed
+1982: Storm 11/101
+... sea ice area completed
+1982: Storm 12/101
+... sea ice area completed
+1982: Storm 13/101
+... sea ice area completed
+1982: Storm 14/101
+... sea ice area completed
+1982: Storm 15/101
+... sea ice area completed
+1982: Storm 16/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 17/101
+... sea ice area completed
+1982: Storm 18/101
+... sea ice area completed
+1982: Storm 19/101
+... sea ice area completed
+1982: Storm 20/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 21/101
+... sea ice area completed
+1982: Storm 22/101
+... sea ice area completed
+1982: Storm 23/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 24/101
+... sea ice area completed
+1982: Storm 25/101
+... sea ice area completed
+1982: Storm 26/101
+... sea ice area completed
+1982: Storm 27/101
+... sea ice area completed
+1982: Storm 28/101
+... sea ice area completed
+1982: Storm 29/101
+... sea ice area completed
+1982: Storm 30/101
+... sea ice area completed
+1982: Storm 31/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 32/101
+... sea ice area completed
+1982: Storm 33/101
+... sea ice area completed
+1982: Storm 34/101
+... sea ice area completed
+1982: Storm 35/101
+... sea ice area completed
+1982: Storm 36/101
+... sea ice area completed
+1982: Storm 37/101
+... sea ice area completed
+1982: Storm 38/101
+... sea ice area completed
+1982: Storm 39/101
+... sea ice area completed
+1982: Storm 40/101
+... sea ice area completed
+1982: Storm 41/101
+... sea ice area completed
+1982: Storm 42/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 43/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 44/101
+... sea ice area completed
+1982: Storm 45/101
+... sea ice area completed
+1982: Storm 46/101
+... sea ice area completed
+1982: Storm 47/101
+... sea ice area completed
+1982: Storm 48/101
+... sea ice area completed
+1982: Storm 49/101
+... sea ice area completed
+1982: Storm 50/101
+... sea ice area completed
+1982: Storm 51/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 52/101
+... sea ice area completed
+1982: Storm 53/101
+... sea ice area completed
+1982: Storm 54/101
+... sea ice area completed
+1982: Storm 55/101
+... sea ice area completed
+1982: Storm 56/101
+... sea ice area completed
+1982: Storm 57/101
+... sea ice area completed
+1982: Storm 58/101
+... sea ice area completed
+1982: Storm 59/101
+... sea ice area completed
+1982: Storm 60/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 61/101
+... sea ice area completed
+1982: Storm 62/101
+... sea ice area completed
+1982: Storm 63/101
+... sea ice area completed
+1982: Storm 64/101
+... sea ice area completed
+1982: Storm 65/101
+... sea ice area completed
+1982: Storm 66/101
+... sea ice area completed
+1982: Storm 67/101
+... sea ice area completed
+1982: Storm 68/101
+... sea ice area completed
+1982: Storm 69/101
+... sea ice area completed
+1982: Storm 70/101
+... sea ice area completed
+1982: Storm 71/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 72/101
+... sea ice area completed
+1982: Storm 73/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 74/101
+... sea ice area completed
+1982: Storm 75/101
+... sea ice area completed
+1982: Storm 76/101
+... sea ice area completed
+1982: Storm 77/101
+... sea ice area completed
+1982: Storm 78/101
+... sea ice area completed
+1982: Storm 79/101
+... sea ice area completed
+1982: Storm 80/101
+... sea ice area completed
+1982: Storm 81/101
+... sea ice area completed
+1982: Storm 82/101
+... sea ice area completed
+1982: Storm 83/101
+... sea ice area completed
+1982: Storm 84/101
+... sea ice area completed
+1982: Storm 85/101
+... sea ice area completed
+1982: Storm 86/101
+... sea ice area completed
+1982: Storm 87/101
+... sea ice area completed
+1982: Storm 88/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 89/101
+... sea ice area completed
+1982: Storm 90/101
+... sea ice area completed
+1982: Storm 91/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 92/101
+... sea ice area completed
+1982: Storm 93/101
+... sea ice area completed
+1982: Storm 94/101
+... sea ice area completed
+1982: Storm 95/101
+... sea ice area completed
+1982: Storm 96/101
+duplicate storm start
+... sea ice area completed
+1982: Storm 97/101
+... sea ice area completed
+1982: Storm 98/101
+... sea ice area completed
+1982: Storm 99/101
+... sea ice area completed
+1982: Storm 100/101
+... sea ice area completed
+1982: Storm 101/101
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (101,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1982 elapsed time: 
+30.4 minutes
+
+
+********
+* 1983 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1983: Storm 1/98
+... sea ice area completed
+1983: Storm 2/98
+... sea ice area completed
+1983: Storm 3/98
+... sea ice area completed
+1983: Storm 4/98
+... sea ice area completed
+1983: Storm 5/98
+... sea ice area completed
+1983: Storm 6/98
+... sea ice area completed
+1983: Storm 7/98
+... sea ice area completed
+1983: Storm 8/98
+... sea ice area completed
+1983: Storm 9/98
+... sea ice area completed
+1983: Storm 10/98
+... sea ice area completed
+1983: Storm 11/98
+... sea ice area completed
+1983: Storm 12/98
+... sea ice area completed
+1983: Storm 13/98
+... sea ice area completed
+1983: Storm 14/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 15/98
+... sea ice area completed
+1983: Storm 16/98
+... sea ice area completed
+1983: Storm 17/98
+... sea ice area completed
+1983: Storm 18/98
+... sea ice area completed
+1983: Storm 19/98
+... sea ice area completed
+1983: Storm 20/98
+... sea ice area completed
+1983: Storm 21/98
+... sea ice area completed
+1983: Storm 22/98
+... sea ice area completed
+1983: Storm 23/98
+... sea ice area completed
+1983: Storm 24/98
+... sea ice area completed
+1983: Storm 25/98
+... sea ice area completed
+1983: Storm 26/98
+... sea ice area completed
+1983: Storm 27/98
+... sea ice area completed
+1983: Storm 28/98
+... sea ice area completed
+1983: Storm 29/98
+... sea ice area completed
+1983: Storm 30/98
+... sea ice area completed
+1983: Storm 31/98
+... sea ice area completed
+1983: Storm 32/98
+... sea ice area completed
+1983: Storm 33/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 34/98
+... sea ice area completed
+1983: Storm 35/98
+... sea ice area completed
+1983: Storm 36/98
+... sea ice area completed
+1983: Storm 37/98
+... sea ice area completed
+1983: Storm 38/98
+... sea ice area completed
+1983: Storm 39/98
+... sea ice area completed
+1983: Storm 40/98
+... sea ice area completed
+1983: Storm 41/98
+... sea ice area completed
+1983: Storm 42/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 43/98
+... sea ice area completed
+1983: Storm 44/98
+... sea ice area completed
+1983: Storm 45/98
+... sea ice area completed
+1983: Storm 46/98
+... sea ice area completed
+1983: Storm 47/98
+... sea ice area completed
+1983: Storm 48/98
+... sea ice area completed
+1983: Storm 49/98
+... sea ice area completed
+1983: Storm 50/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 51/98
+... sea ice area completed
+1983: Storm 52/98
+... sea ice area completed
+1983: Storm 53/98
+... sea ice area completed
+1983: Storm 54/98
+... sea ice area completed
+1983: Storm 55/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 56/98
+... sea ice area completed
+1983: Storm 57/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 58/98
+... sea ice area completed
+1983: Storm 59/98
+... sea ice area completed
+1983: Storm 60/98
+... sea ice area completed
+1983: Storm 61/98
+... sea ice area completed
+1983: Storm 62/98
+... sea ice area completed
+1983: Storm 63/98
+... sea ice area completed
+1983: Storm 64/98
+... sea ice area completed
+1983: Storm 65/98
+... sea ice area completed
+1983: Storm 66/98
+... sea ice area completed
+1983: Storm 67/98
+... sea ice area completed
+1983: Storm 68/98
+... sea ice area completed
+1983: Storm 69/98
+... sea ice area completed
+1983: Storm 70/98
+... sea ice area completed
+1983: Storm 71/98
+... sea ice area completed
+1983: Storm 72/98
+... sea ice area completed
+1983: Storm 73/98
+... sea ice area completed
+1983: Storm 74/98
+... sea ice area completed
+1983: Storm 75/98
+... sea ice area completed
+1983: Storm 76/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 77/98
+... sea ice area completed
+1983: Storm 78/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 79/98
+... sea ice area completed
+1983: Storm 80/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 81/98
+... sea ice area completed
+1983: Storm 82/98
+... sea ice area completed
+1983: Storm 83/98
+... sea ice area completed
+1983: Storm 84/98
+... sea ice area completed
+1983: Storm 85/98
+... sea ice area completed
+1983: Storm 86/98
+... sea ice area completed
+1983: Storm 87/98
+... sea ice area completed
+1983: Storm 88/98
+... sea ice area completed
+1983: Storm 89/98
+duplicate storm start
+... sea ice area completed
+1983: Storm 90/98
+... sea ice area completed
+1983: Storm 91/98
+... sea ice area completed
+1983: Storm 92/98
+... sea ice area completed
+1983: Storm 93/98
+... sea ice area completed
+1983: Storm 94/98
+... sea ice area completed
+1983: Storm 95/98
+... sea ice area completed
+1983: Storm 96/98
+... sea ice area completed
+1983: Storm 97/98
+... sea ice area completed
+1983: Storm 98/98
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (98,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1983 elapsed time: 
+29.2 minutes
+
+
+********
+* 1984 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1984: Storm 1/79
+... sea ice area completed
+1984: Storm 2/79
+... sea ice area completed
+1984: Storm 3/79
+... sea ice area completed
+1984: Storm 4/79
+... sea ice area completed
+1984: Storm 5/79
+... sea ice area completed
+1984: Storm 6/79
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1984: Storm 7/79
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1984: Storm 8/79
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1984: Storm 9/79
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1984: Storm 10/79
+... sea ice area completed
+1984: Storm 11/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 12/79
+... sea ice area completed
+1984: Storm 13/79
+... sea ice area completed
+1984: Storm 14/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 15/79
+... sea ice area completed
+1984: Storm 16/79
+... sea ice area completed
+1984: Storm 17/79
+... sea ice area completed
+1984: Storm 18/79
+... sea ice area completed
+1984: Storm 19/79
+... sea ice area completed
+1984: Storm 20/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 21/79
+... sea ice area completed
+1984: Storm 22/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 23/79
+... sea ice area completed
+1984: Storm 24/79
+... sea ice area completed
+1984: Storm 25/79
+... sea ice area completed
+1984: Storm 26/79
+... sea ice area completed
+1984: Storm 27/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 28/79
+... sea ice area completed
+1984: Storm 29/79
+... sea ice area completed
+1984: Storm 30/79
+... sea ice area completed
+1984: Storm 31/79
+... sea ice area completed
+1984: Storm 32/79
+... sea ice area completed
+1984: Storm 33/79
+... sea ice area completed
+1984: Storm 34/79
+... sea ice area completed
+1984: Storm 35/79
+... sea ice area completed
+1984: Storm 36/79
+... sea ice area completed
+1984: Storm 37/79
+... sea ice area completed
+1984: Storm 38/79
+... sea ice area completed
+1984: Storm 39/79
+... sea ice area completed
+1984: Storm 40/79
+... sea ice area completed
+1984: Storm 41/79
+... sea ice area completed
+1984: Storm 42/79
+... sea ice area completed
+1984: Storm 43/79
+... sea ice area completed
+1984: Storm 44/79
+... sea ice area completed
+1984: Storm 45/79
+... sea ice area completed
+1984: Storm 46/79
+... sea ice area completed
+1984: Storm 47/79
+... sea ice area completed
+1984: Storm 48/79
+... sea ice area completed
+1984: Storm 49/79
+... sea ice area completed
+1984: Storm 50/79
+... sea ice area completed
+1984: Storm 51/79
+... sea ice area completed
+1984: Storm 52/79
+... sea ice area completed
+1984: Storm 53/79
+... sea ice area completed
+1984: Storm 54/79
+... sea ice area completed
+1984: Storm 55/79
+... sea ice area completed
+1984: Storm 56/79
+... sea ice area completed
+1984: Storm 57/79
+... sea ice area completed
+1984: Storm 58/79
+... sea ice area completed
+1984: Storm 59/79
+... sea ice area completed
+1984: Storm 60/79
+... sea ice area completed
+1984: Storm 61/79
+... sea ice area completed
+1984: Storm 62/79
+... sea ice area completed
+1984: Storm 63/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 64/79
+... sea ice area completed
+1984: Storm 65/79
+... sea ice area completed
+1984: Storm 66/79
+... sea ice area completed
+1984: Storm 67/79
+... sea ice area completed
+1984: Storm 68/79
+... sea ice area completed
+1984: Storm 69/79
+duplicate storm start
+... sea ice area completed
+1984: Storm 70/79
+... sea ice area completed
+1984: Storm 71/79
+... sea ice area completed
+1984: Storm 72/79
+... sea ice area completed
+1984: Storm 73/79
+... sea ice area completed
+1984: Storm 74/79
+... sea ice area completed
+1984: Storm 75/79
+... sea ice area completed
+1984: Storm 76/79
+... sea ice area completed
+1984: Storm 77/79
+... sea ice area completed
+1984: Storm 78/79
+... sea ice area completed
+1984: Storm 79/79
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (79,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1984 elapsed time: 
+24.6 minutes
+
+
+********
+* 1985 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1985: Storm 1/93
+... sea ice area completed
+1985: Storm 2/93
+... sea ice area completed
+1985: Storm 3/93
+... sea ice area completed
+1985: Storm 4/93
+... sea ice area completed
+1985: Storm 5/93
+... sea ice area completed
+1985: Storm 6/93
+... sea ice area completed
+1985: Storm 7/93
+... sea ice area completed
+1985: Storm 8/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 9/93
+... sea ice area completed
+1985: Storm 10/93
+... sea ice area completed
+1985: Storm 11/93
+... sea ice area completed
+1985: Storm 12/93
+... sea ice area completed
+1985: Storm 13/93
+... sea ice area completed
+1985: Storm 14/93
+... sea ice area completed
+1985: Storm 15/93
+... sea ice area completed
+1985: Storm 16/93
+... sea ice area completed
+1985: Storm 17/93
+... sea ice area completed
+1985: Storm 18/93
+... sea ice area completed
+1985: Storm 19/93
+... sea ice area completed
+1985: Storm 20/93
+... sea ice area completed
+1985: Storm 21/93
+... sea ice area completed
+1985: Storm 22/93
+... sea ice area completed
+1985: Storm 23/93
+... sea ice area completed
+1985: Storm 24/93
+... sea ice area completed
+1985: Storm 25/93
+... sea ice area completed
+1985: Storm 26/93
+... sea ice area completed
+1985: Storm 27/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 28/93
+... sea ice area completed
+1985: Storm 29/93
+... sea ice area completed
+1985: Storm 30/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 31/93
+... sea ice area completed
+1985: Storm 32/93
+... sea ice area completed
+1985: Storm 33/93
+... sea ice area completed
+1985: Storm 34/93
+... sea ice area completed
+1985: Storm 35/93
+... sea ice area completed
+1985: Storm 36/93
+... sea ice area completed
+1985: Storm 37/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 38/93
+... sea ice area completed
+1985: Storm 39/93
+... sea ice area completed
+1985: Storm 40/93
+... sea ice area completed
+1985: Storm 41/93
+... sea ice area completed
+1985: Storm 42/93
+... sea ice area completed
+1985: Storm 43/93
+... sea ice area completed
+1985: Storm 44/93
+... sea ice area completed
+1985: Storm 45/93
+... sea ice area completed
+1985: Storm 46/93
+... sea ice area completed
+1985: Storm 47/93
+... sea ice area completed
+1985: Storm 48/93
+... sea ice area completed
+1985: Storm 49/93
+... sea ice area completed
+1985: Storm 50/93
+... sea ice area completed
+1985: Storm 51/93
+... sea ice area completed
+1985: Storm 52/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 53/93
+... sea ice area completed
+1985: Storm 54/93
+... sea ice area completed
+1985: Storm 55/93
+... sea ice area completed
+1985: Storm 56/93
+... sea ice area completed
+1985: Storm 57/93
+... sea ice area completed
+1985: Storm 58/93
+... sea ice area completed
+1985: Storm 59/93
+... sea ice area completed
+1985: Storm 60/93
+... sea ice area completed
+1985: Storm 61/93
+... sea ice area completed
+1985: Storm 62/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 63/93
+... sea ice area completed
+1985: Storm 64/93
+... sea ice area completed
+1985: Storm 65/93
+... sea ice area completed
+1985: Storm 66/93
+... sea ice area completed
+1985: Storm 67/93
+... sea ice area completed
+1985: Storm 68/93
+... sea ice area completed
+1985: Storm 69/93
+... sea ice area completed
+1985: Storm 70/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 71/93
+... sea ice area completed
+1985: Storm 72/93
+... sea ice area completed
+1985: Storm 73/93
+... sea ice area completed
+1985: Storm 74/93
+... sea ice area completed
+1985: Storm 75/93
+... sea ice area completed
+1985: Storm 76/93
+... sea ice area completed
+1985: Storm 77/93
+... sea ice area completed
+1985: Storm 78/93
+... sea ice area completed
+1985: Storm 79/93
+... sea ice area completed
+1985: Storm 80/93
+... sea ice area completed
+1985: Storm 81/93
+... sea ice area completed
+1985: Storm 82/93
+... sea ice area completed
+1985: Storm 83/93
+... sea ice area completed
+1985: Storm 84/93
+... sea ice area completed
+1985: Storm 85/93
+... sea ice area completed
+1985: Storm 86/93
+... sea ice area completed
+1985: Storm 87/93
+... sea ice area completed
+1985: Storm 88/93
+... sea ice area completed
+1985: Storm 89/93
+... sea ice area completed
+1985: Storm 90/93
+... sea ice area completed
+1985: Storm 91/93
+duplicate storm start
+... sea ice area completed
+1985: Storm 92/93
+... sea ice area completed
+1985: Storm 93/93
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (93,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1985 elapsed time: 
+27.4 minutes
+
+
+********
+* 1986 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1986: Storm 1/85
+... sea ice area completed
+1986: Storm 2/85
+... sea ice area completed
+1986: Storm 3/85
+... sea ice area completed
+1986: Storm 4/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 5/85
+... sea ice area completed
+1986: Storm 6/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 7/85
+... sea ice area completed
+1986: Storm 8/85
+... sea ice area completed
+1986: Storm 9/85
+... sea ice area completed
+1986: Storm 10/85
+... sea ice area completed
+1986: Storm 11/85
+... sea ice area completed
+1986: Storm 12/85
+... sea ice area completed
+1986: Storm 13/85
+... sea ice area completed
+1986: Storm 14/85
+... sea ice area completed
+1986: Storm 15/85
+... sea ice area completed
+1986: Storm 16/85
+... sea ice area completed
+1986: Storm 17/85
+... sea ice area completed
+1986: Storm 18/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 19/85
+... sea ice area completed
+1986: Storm 20/85
+... sea ice area completed
+1986: Storm 21/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 22/85
+... sea ice area completed
+1986: Storm 23/85
+... sea ice area completed
+1986: Storm 24/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 25/85
+... sea ice area completed
+1986: Storm 26/85
+... sea ice area completed
+1986: Storm 27/85
+... sea ice area completed
+1986: Storm 28/85
+... sea ice area completed
+1986: Storm 29/85
+... sea ice area completed
+1986: Storm 30/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 31/85
+... sea ice area completed
+1986: Storm 32/85
+... sea ice area completed
+1986: Storm 33/85
+... sea ice area completed
+1986: Storm 34/85
+... sea ice area completed
+1986: Storm 35/85
+... sea ice area completed
+1986: Storm 36/85
+... sea ice area completed
+1986: Storm 37/85
+... sea ice area completed
+1986: Storm 38/85
+... sea ice area completed
+1986: Storm 39/85
+... sea ice area completed
+1986: Storm 40/85
+... sea ice area completed
+1986: Storm 41/85
+... sea ice area completed
+1986: Storm 42/85
+... sea ice area completed
+1986: Storm 43/85
+... sea ice area completed
+1986: Storm 44/85
+... sea ice area completed
+1986: Storm 45/85
+... sea ice area completed
+1986: Storm 46/85
+... sea ice area completed
+1986: Storm 47/85
+... sea ice area completed
+1986: Storm 48/85
+... sea ice area completed
+1986: Storm 49/85
+... sea ice area completed
+1986: Storm 50/85
+... sea ice area completed
+1986: Storm 51/85
+... sea ice area completed
+1986: Storm 52/85
+... sea ice area completed
+1986: Storm 53/85
+... sea ice area completed
+1986: Storm 54/85
+duplicate storm start
+... sea ice area completed
+1986: Storm 55/85
+... sea ice area completed
+1986: Storm 56/85
+... sea ice area completed
+1986: Storm 57/85
+... sea ice area completed
+1986: Storm 58/85
+... sea ice area completed
+1986: Storm 59/85
+... sea ice area completed
+1986: Storm 60/85
+... sea ice area completed
+1986: Storm 61/85
+... sea ice area completed
+1986: Storm 62/85
+... sea ice area completed
+1986: Storm 63/85
+... sea ice area completed
+1986: Storm 64/85
+... sea ice area completed
+1986: Storm 65/85
+... sea ice area completed
+1986: Storm 66/85
+... sea ice area completed
+1986: Storm 67/85
+... sea ice area completed
+1986: Storm 68/85
+... sea ice area completed
+1986: Storm 69/85
+... sea ice area completed
+1986: Storm 70/85
+... sea ice area completed
+1986: Storm 71/85
+... sea ice area completed
+1986: Storm 72/85
+... sea ice area completed
+1986: Storm 73/85
+... sea ice area completed
+1986: Storm 74/85
+... sea ice area completed
+1986: Storm 75/85
+... sea ice area completed
+1986: Storm 76/85
+... sea ice area completed
+1986: Storm 77/85
+... sea ice area completed
+1986: Storm 78/85
+... sea ice area completed
+1986: Storm 79/85
+... sea ice area completed
+1986: Storm 80/85
+... sea ice area completed
+1986: Storm 81/85
+... sea ice area completed
+1986: Storm 82/85
+... sea ice area completed
+1986: Storm 83/85
+... sea ice area completed
+1986: Storm 84/85
+... sea ice area completed
+1986: Storm 85/85
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (85,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1986 elapsed time: 
+25.2 minutes
+
+
+********
+* 1987 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1987: Storm 1/103
+... sea ice area completed
+1987: Storm 2/103
+... sea ice area completed
+1987: Storm 3/103
+... sea ice area completed
+1987: Storm 4/103
+... sea ice area completed
+1987: Storm 5/103
+... sea ice area completed
+1987: Storm 6/103
+... sea ice area completed
+1987: Storm 7/103
+... sea ice area completed
+1987: Storm 8/103
+... sea ice area completed
+1987: Storm 9/103
+... sea ice area completed
+1987: Storm 10/103
+... sea ice area completed
+1987: Storm 11/103
+... sea ice area completed
+1987: Storm 12/103
+... sea ice area completed
+1987: Storm 13/103
+... sea ice area completed
+1987: Storm 14/103
+... sea ice area completed
+1987: Storm 15/103
+... sea ice area completed
+1987: Storm 16/103
+... sea ice area completed
+1987: Storm 17/103
+... sea ice area completed
+1987: Storm 18/103
+... sea ice area completed
+1987: Storm 19/103
+... sea ice area completed
+1987: Storm 20/103
+... sea ice area completed
+1987: Storm 21/103
+... sea ice area completed
+1987: Storm 22/103
+... sea ice area completed
+1987: Storm 23/103
+... sea ice area completed
+1987: Storm 24/103
+... sea ice area completed
+1987: Storm 25/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 26/103
+... sea ice area completed
+1987: Storm 27/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 28/103
+... sea ice area completed
+1987: Storm 29/103
+... sea ice area completed
+1987: Storm 30/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 31/103
+... sea ice area completed
+1987: Storm 32/103
+... sea ice area completed
+1987: Storm 33/103
+... sea ice area completed
+1987: Storm 34/103
+... sea ice area completed
+1987: Storm 35/103
+... sea ice area completed
+1987: Storm 36/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 37/103
+... sea ice area completed
+1987: Storm 38/103
+... sea ice area completed
+1987: Storm 39/103
+... sea ice area completed
+1987: Storm 40/103
+... sea ice area completed
+1987: Storm 41/103
+... sea ice area completed
+1987: Storm 42/103
+... sea ice area completed
+1987: Storm 43/103
+... sea ice area completed
+1987: Storm 44/103
+... sea ice area completed
+1987: Storm 45/103
+... sea ice area completed
+1987: Storm 46/103
+... sea ice area completed
+1987: Storm 47/103
+... sea ice area completed
+1987: Storm 48/103
+... sea ice area completed
+1987: Storm 49/103
+... sea ice area completed
+1987: Storm 50/103
+... sea ice area completed
+1987: Storm 51/103
+... sea ice area completed
+1987: Storm 52/103
+... sea ice area completed
+1987: Storm 53/103
+... sea ice area completed
+1987: Storm 54/103
+... sea ice area completed
+1987: Storm 55/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 56/103
+... sea ice area completed
+1987: Storm 57/103
+... sea ice area completed
+1987: Storm 58/103
+... sea ice area completed
+1987: Storm 59/103
+... sea ice area completed
+1987: Storm 60/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 61/103
+... sea ice area completed
+1987: Storm 62/103
+... sea ice area completed
+1987: Storm 63/103
+... sea ice area completed
+1987: Storm 64/103
+... sea ice area completed
+1987: Storm 65/103
+... sea ice area completed
+1987: Storm 66/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 67/103
+... sea ice area completed
+1987: Storm 68/103
+... sea ice area completed
+1987: Storm 69/103
+... sea ice area completed
+1987: Storm 70/103
+... sea ice area completed
+1987: Storm 71/103
+... sea ice area completed
+1987: Storm 72/103
+... sea ice area completed
+1987: Storm 73/103
+... sea ice area completed
+1987: Storm 74/103
+... sea ice area completed
+1987: Storm 75/103
+... sea ice area completed
+1987: Storm 76/103
+... sea ice area completed
+1987: Storm 77/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 78/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 79/103
+... sea ice area completed
+1987: Storm 80/103
+... sea ice area completed
+1987: Storm 81/103
+... sea ice area completed
+1987: Storm 82/103
+... sea ice area completed
+1987: Storm 83/103
+... sea ice area completed
+1987: Storm 84/103
+... sea ice area completed
+1987: Storm 85/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 86/103
+... sea ice area completed
+1987: Storm 87/103
+... sea ice area completed
+1987: Storm 88/103
+... sea ice area completed
+1987: Storm 89/103
+... sea ice area completed
+1987: Storm 90/103
+... sea ice area completed
+1987: Storm 91/103
+... sea ice area completed
+1987: Storm 92/103
+... sea ice area completed
+1987: Storm 93/103
+... sea ice area completed
+1987: Storm 94/103
+... sea ice area completed
+1987: Storm 95/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 96/103
+... sea ice area completed
+1987: Storm 97/103
+... sea ice area completed
+1987: Storm 98/103
+... sea ice area completed
+1987: Storm 99/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 100/103
+... sea ice area completed
+1987: Storm 101/103
+... sea ice area completed
+1987: Storm 102/103
+duplicate storm start
+... sea ice area completed
+1987: Storm 103/103
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (103,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1987 elapsed time: 
+30.7 minutes
+
+
+********
+* 1988 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1988: Storm 1/101
+... sea ice area completed
+1988: Storm 2/101
+... sea ice area completed
+1988: Storm 3/101
+... sea ice area completed
+1988: Storm 4/101
+... sea ice area completed
+1988: Storm 5/101
+... sea ice area completed
+1988: Storm 6/101
+... sea ice area completed
+1988: Storm 7/101
+... sea ice area completed
+1988: Storm 8/101
+... sea ice area completed
+1988: Storm 9/101
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 10/101
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 11/101
+duplicate storm start
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 12/101
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 13/101
+duplicate storm start
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 14/101
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 15/101
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 16/101
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19820229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19830229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19850229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19860229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19870229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19890229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19900229*.nc
+Error with S.Hemisphere filename: /langley/data12/old_data5/arctic/NOAA_CDR_SIC_V4/south/*19910229*.nc
+... sea ice area completed
+1988: Storm 17/101
+... sea ice area completed
+1988: Storm 18/101
+... sea ice area completed
+1988: Storm 19/101
+... sea ice area completed
+1988: Storm 20/101
+... sea ice area completed
+1988: Storm 21/101
+... sea ice area completed
+1988: Storm 22/101
+... sea ice area completed
+1988: Storm 23/101
+... sea ice area completed
+1988: Storm 24/101
+... sea ice area completed
+1988: Storm 25/101
+... sea ice area completed
+1988: Storm 26/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 27/101
+... sea ice area completed
+1988: Storm 28/101
+... sea ice area completed
+1988: Storm 29/101
+... sea ice area completed
+1988: Storm 30/101
+... sea ice area completed
+1988: Storm 31/101
+... sea ice area completed
+1988: Storm 32/101
+... sea ice area completed
+1988: Storm 33/101
+... sea ice area completed
+1988: Storm 34/101
+... sea ice area completed
+1988: Storm 35/101
+... sea ice area completed
+1988: Storm 36/101
+... sea ice area completed
+1988: Storm 37/101
+... sea ice area completed
+1988: Storm 38/101
+... sea ice area completed
+1988: Storm 39/101
+... sea ice area completed
+1988: Storm 40/101
+... sea ice area completed
+1988: Storm 41/101
+... sea ice area completed
+1988: Storm 42/101
+... sea ice area completed
+1988: Storm 43/101
+... sea ice area completed
+1988: Storm 44/101
+... sea ice area completed
+1988: Storm 45/101
+... sea ice area completed
+1988: Storm 46/101
+... sea ice area completed
+1988: Storm 47/101
+... sea ice area completed
+1988: Storm 48/101
+... sea ice area completed
+1988: Storm 49/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 50/101
+... sea ice area completed
+1988: Storm 51/101
+... sea ice area completed
+1988: Storm 52/101
+... sea ice area completed
+1988: Storm 53/101
+... sea ice area completed
+1988: Storm 54/101
+... sea ice area completed
+1988: Storm 55/101
+... sea ice area completed
+1988: Storm 56/101
+... sea ice area completed
+1988: Storm 57/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 58/101
+... sea ice area completed
+1988: Storm 59/101
+... sea ice area completed
+1988: Storm 60/101
+... sea ice area completed
+1988: Storm 61/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 62/101
+... sea ice area completed
+1988: Storm 63/101
+... sea ice area completed
+1988: Storm 64/101
+... sea ice area completed
+1988: Storm 65/101
+... sea ice area completed
+1988: Storm 66/101
+... sea ice area completed
+1988: Storm 67/101
+... sea ice area completed
+1988: Storm 68/101
+... sea ice area completed
+1988: Storm 69/101
+... sea ice area completed
+1988: Storm 70/101
+... sea ice area completed
+1988: Storm 71/101
+... sea ice area completed
+1988: Storm 72/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 73/101
+... sea ice area completed
+1988: Storm 74/101
+... sea ice area completed
+1988: Storm 75/101
+... sea ice area completed
+1988: Storm 76/101
+... sea ice area completed
+1988: Storm 77/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 78/101
+... sea ice area completed
+1988: Storm 79/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 80/101
+... sea ice area completed
+1988: Storm 81/101
+... sea ice area completed
+1988: Storm 82/101
+... sea ice area completed
+1988: Storm 83/101
+... sea ice area completed
+1988: Storm 84/101
+... sea ice area completed
+1988: Storm 85/101
+duplicate storm start
+... sea ice area completed
+1988: Storm 86/101
+... sea ice area completed
+1988: Storm 87/101
+... sea ice area completed
+1988: Storm 88/101
+... sea ice area completed
+1988: Storm 89/101
+... sea ice area completed
+1988: Storm 90/101
+... sea ice area completed
+1988: Storm 91/101
+... sea ice area completed
+1988: Storm 92/101
+... sea ice area completed
+1988: Storm 93/101
+... sea ice area completed
+1988: Storm 94/101
+... sea ice area completed
+1988: Storm 95/101
+... sea ice area completed
+1988: Storm 96/101
+... sea ice area completed
+1988: Storm 97/101
+... sea ice area completed
+1988: Storm 98/101
+... sea ice area completed
+1988: Storm 99/101
+... sea ice area completed
+1988: Storm 100/101
+... sea ice area completed
+1988: Storm 101/101
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (101,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1988 elapsed time: 
+30.2 minutes
+
+
+********
+* 1989 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1989: Storm 1/98
+... sea ice area completed
+1989: Storm 2/98
+... sea ice area completed
+1989: Storm 3/98
+... sea ice area completed
+1989: Storm 4/98
+... sea ice area completed
+1989: Storm 5/98
+... sea ice area completed
+1989: Storm 6/98
+... sea ice area completed
+1989: Storm 7/98
+... sea ice area completed
+1989: Storm 8/98
+... sea ice area completed
+1989: Storm 9/98
+... sea ice area completed
+1989: Storm 10/98
+... sea ice area completed
+1989: Storm 11/98
+... sea ice area completed
+1989: Storm 12/98
+... sea ice area completed
+1989: Storm 13/98
+... sea ice area completed
+1989: Storm 14/98
+... sea ice area completed
+1989: Storm 15/98
+... sea ice area completed
+1989: Storm 16/98
+... sea ice area completed
+1989: Storm 17/98
+... sea ice area completed
+1989: Storm 18/98
+... sea ice area completed
+1989: Storm 19/98
+... sea ice area completed
+1989: Storm 20/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 21/98
+... sea ice area completed
+1989: Storm 22/98
+... sea ice area completed
+1989: Storm 23/98
+... sea ice area completed
+1989: Storm 24/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 25/98
+... sea ice area completed
+1989: Storm 26/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 27/98
+... sea ice area completed
+1989: Storm 28/98
+... sea ice area completed
+1989: Storm 29/98
+... sea ice area completed
+1989: Storm 30/98
+... sea ice area completed
+1989: Storm 31/98
+... sea ice area completed
+1989: Storm 32/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 33/98
+... sea ice area completed
+1989: Storm 34/98
+... sea ice area completed
+1989: Storm 35/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 36/98
+... sea ice area completed
+1989: Storm 37/98
+... sea ice area completed
+1989: Storm 38/98
+... sea ice area completed
+1989: Storm 39/98
+... sea ice area completed
+1989: Storm 40/98
+... sea ice area completed
+1989: Storm 41/98
+... sea ice area completed
+1989: Storm 42/98
+... sea ice area completed
+1989: Storm 43/98
+... sea ice area completed
+1989: Storm 44/98
+... sea ice area completed
+1989: Storm 45/98
+... sea ice area completed
+1989: Storm 46/98
+... sea ice area completed
+1989: Storm 47/98
+... sea ice area completed
+1989: Storm 48/98
+... sea ice area completed
+1989: Storm 49/98
+... sea ice area completed
+1989: Storm 50/98
+... sea ice area completed
+1989: Storm 51/98
+... sea ice area completed
+1989: Storm 52/98
+... sea ice area completed
+1989: Storm 53/98
+... sea ice area completed
+1989: Storm 54/98
+... sea ice area completed
+1989: Storm 55/98
+... sea ice area completed
+1989: Storm 56/98
+... sea ice area completed
+1989: Storm 57/98
+... sea ice area completed
+1989: Storm 58/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 59/98
+... sea ice area completed
+1989: Storm 60/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 61/98
+... sea ice area completed
+1989: Storm 62/98
+... sea ice area completed
+1989: Storm 63/98
+... sea ice area completed
+1989: Storm 64/98
+... sea ice area completed
+1989: Storm 65/98
+... sea ice area completed
+1989: Storm 66/98
+... sea ice area completed
+1989: Storm 67/98
+... sea ice area completed
+1989: Storm 68/98
+... sea ice area completed
+1989: Storm 69/98
+... sea ice area completed
+1989: Storm 70/98
+... sea ice area completed
+1989: Storm 71/98
+... sea ice area completed
+1989: Storm 72/98
+... sea ice area completed
+1989: Storm 73/98
+... sea ice area completed
+1989: Storm 74/98
+... sea ice area completed
+1989: Storm 75/98
+... sea ice area completed
+1989: Storm 76/98
+... sea ice area completed
+1989: Storm 77/98
+duplicate storm start
+... sea ice area completed
+1989: Storm 78/98
+... sea ice area completed
+1989: Storm 79/98
+... sea ice area completed
+1989: Storm 80/98
+... sea ice area completed
+1989: Storm 81/98
+... sea ice area completed
+1989: Storm 82/98
+... sea ice area completed
+1989: Storm 83/98
+... sea ice area completed
+1989: Storm 84/98
+... sea ice area completed
+1989: Storm 85/98
+... sea ice area completed
+1989: Storm 86/98
+... sea ice area completed
+1989: Storm 87/98
+... sea ice area completed
+1989: Storm 88/98
+... sea ice area completed
+1989: Storm 89/98
+... sea ice area completed
+1989: Storm 90/98
+... sea ice area completed
+1989: Storm 91/98
+... sea ice area completed
+1989: Storm 92/98
+... sea ice area completed
+1989: Storm 93/98
+... sea ice area completed
+1989: Storm 94/98
+... sea ice area completed
+1989: Storm 95/98
+... sea ice area completed
+1989: Storm 96/98
+... sea ice area completed
+1989: Storm 97/98
+... sea ice area completed
+1989: Storm 98/98
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (98,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1989 elapsed time: 
+28.7 minutes
+
+
+********
+* 1990 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1990: Storm 1/107
+... sea ice area completed
+1990: Storm 2/107
+... sea ice area completed
+1990: Storm 3/107
+... sea ice area completed
+1990: Storm 4/107
+... sea ice area completed
+1990: Storm 5/107
+... sea ice area completed
+1990: Storm 6/107
+... sea ice area completed
+1990: Storm 7/107
+... sea ice area completed
+1990: Storm 8/107
+... sea ice area completed
+1990: Storm 9/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 10/107
+... sea ice area completed
+1990: Storm 11/107
+... sea ice area completed
+1990: Storm 12/107
+... sea ice area completed
+1990: Storm 13/107
+... sea ice area completed
+1990: Storm 14/107
+... sea ice area completed
+1990: Storm 15/107
+... sea ice area completed
+1990: Storm 16/107
+... sea ice area completed
+1990: Storm 17/107
+... sea ice area completed
+1990: Storm 18/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 19/107
+... sea ice area completed
+1990: Storm 20/107
+... sea ice area completed
+1990: Storm 21/107
+... sea ice area completed
+1990: Storm 22/107
+... sea ice area completed
+1990: Storm 23/107
+... sea ice area completed
+1990: Storm 24/107
+... sea ice area completed
+1990: Storm 25/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 26/107
+... sea ice area completed
+1990: Storm 27/107
+... sea ice area completed
+1990: Storm 28/107
+... sea ice area completed
+1990: Storm 29/107
+... sea ice area completed
+1990: Storm 30/107
+... sea ice area completed
+1990: Storm 31/107
+... sea ice area completed
+1990: Storm 32/107
+... sea ice area completed
+1990: Storm 33/107
+... sea ice area completed
+1990: Storm 34/107
+... sea ice area completed
+1990: Storm 35/107
+... sea ice area completed
+1990: Storm 36/107
+... sea ice area completed
+1990: Storm 37/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 38/107
+... sea ice area completed
+1990: Storm 39/107
+... sea ice area completed
+1990: Storm 40/107
+... sea ice area completed
+1990: Storm 41/107
+... sea ice area completed
+1990: Storm 42/107
+... sea ice area completed
+1990: Storm 43/107
+... sea ice area completed
+1990: Storm 44/107
+... sea ice area completed
+1990: Storm 45/107
+... sea ice area completed
+1990: Storm 46/107
+... sea ice area completed
+1990: Storm 47/107
+... sea ice area completed
+1990: Storm 48/107
+... sea ice area completed
+1990: Storm 49/107
+... sea ice area completed
+1990: Storm 50/107
+... sea ice area completed
+1990: Storm 51/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 52/107
+... sea ice area completed
+1990: Storm 53/107
+... sea ice area completed
+1990: Storm 54/107
+... sea ice area completed
+1990: Storm 55/107
+... sea ice area completed
+1990: Storm 56/107
+... sea ice area completed
+1990: Storm 57/107
+... sea ice area completed
+1990: Storm 58/107
+... sea ice area completed
+1990: Storm 59/107
+... sea ice area completed
+1990: Storm 60/107
+... sea ice area completed
+1990: Storm 61/107
+... sea ice area completed
+1990: Storm 62/107
+... sea ice area completed
+1990: Storm 63/107
+... sea ice area completed
+1990: Storm 64/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 65/107
+... sea ice area completed
+1990: Storm 66/107
+... sea ice area completed
+1990: Storm 67/107
+... sea ice area completed
+1990: Storm 68/107
+... sea ice area completed
+1990: Storm 69/107
+... sea ice area completed
+1990: Storm 70/107
+... sea ice area completed
+1990: Storm 71/107
+... sea ice area completed
+1990: Storm 72/107
+... sea ice area completed
+1990: Storm 73/107
+... sea ice area completed
+1990: Storm 74/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 75/107
+... sea ice area completed
+1990: Storm 76/107
+... sea ice area completed
+1990: Storm 77/107
+... sea ice area completed
+1990: Storm 78/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 79/107
+... sea ice area completed
+1990: Storm 80/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 81/107
+... sea ice area completed
+1990: Storm 82/107
+... sea ice area completed
+1990: Storm 83/107
+... sea ice area completed
+1990: Storm 84/107
+... sea ice area completed
+1990: Storm 85/107
+... sea ice area completed
+1990: Storm 86/107
+duplicate storm start
+... sea ice area completed
+1990: Storm 87/107
+... sea ice area completed
+1990: Storm 88/107
+... sea ice area completed
+1990: Storm 89/107
+... sea ice area completed
+1990: Storm 90/107
+... sea ice area completed
+1990: Storm 91/107
+... sea ice area completed
+1990: Storm 92/107
+... sea ice area completed
+1990: Storm 93/107
+... sea ice area completed
+1990: Storm 94/107
+... sea ice area completed
+1990: Storm 95/107
+... sea ice area completed
+1990: Storm 96/107
+... sea ice area completed
+1990: Storm 97/107
+... sea ice area completed
+1990: Storm 98/107
+... sea ice area completed
+1990: Storm 99/107
+... sea ice area completed
+1990: Storm 100/107
+... sea ice area completed
+1990: Storm 101/107
+... sea ice area completed
+1990: Storm 102/107
+... sea ice area completed
+1990: Storm 103/107
+... sea ice area completed
+1990: Storm 104/107
+... sea ice area completed
+1990: Storm 105/107
+... sea ice area completed
+1990: Storm 106/107
+... sea ice area completed
+1990: Storm 107/107
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (107,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1990 elapsed time: 
+30.7 minutes
+
+
+********
+* 1991 *
+********
+{'seaice': True, 'winds': False, 'sst': False, 'sst_daily': False, 'glorys': False, 'air_temp': False}
+
+- census acquired
+- data export set up
+ 
+1991: Storm 1/95
+... sea ice area completed
+1991: Storm 2/95
+... sea ice area completed
+1991: Storm 3/95
+... sea ice area completed
+1991: Storm 4/95
+... sea ice area completed
+1991: Storm 5/95
+... sea ice area completed
+1991: Storm 6/95
+... sea ice area completed
+1991: Storm 7/95
+... sea ice area completed
+1991: Storm 8/95
+... sea ice area completed
+1991: Storm 9/95
+... sea ice area completed
+1991: Storm 10/95
+... sea ice area completed
+1991: Storm 11/95
+... sea ice area completed
+1991: Storm 12/95
+... sea ice area completed
+1991: Storm 13/95
+... sea ice area completed
+1991: Storm 14/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 15/95
+... sea ice area completed
+1991: Storm 16/95
+... sea ice area completed
+1991: Storm 17/95
+... sea ice area completed
+1991: Storm 18/95
+... sea ice area completed
+1991: Storm 19/95
+... sea ice area completed
+1991: Storm 20/95
+... sea ice area completed
+1991: Storm 21/95
+... sea ice area completed
+1991: Storm 22/95
+... sea ice area completed
+1991: Storm 23/95
+... sea ice area completed
+1991: Storm 24/95
+... sea ice area completed
+1991: Storm 25/95
+... sea ice area completed
+1991: Storm 26/95
+... sea ice area completed
+1991: Storm 27/95
+... sea ice area completed
+1991: Storm 28/95
+... sea ice area completed
+1991: Storm 29/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 30/95
+... sea ice area completed
+1991: Storm 31/95
+... sea ice area completed
+1991: Storm 32/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 33/95
+... sea ice area completed
+1991: Storm 34/95
+... sea ice area completed
+1991: Storm 35/95
+... sea ice area completed
+1991: Storm 36/95
+... sea ice area completed
+1991: Storm 37/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 38/95
+... sea ice area completed
+1991: Storm 39/95
+... sea ice area completed
+1991: Storm 40/95
+... sea ice area completed
+1991: Storm 41/95
+... sea ice area completed
+1991: Storm 42/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 43/95
+... sea ice area completed
+1991: Storm 44/95
+... sea ice area completed
+1991: Storm 45/95
+... sea ice area completed
+1991: Storm 46/95
+... sea ice area completed
+1991: Storm 47/95
+... sea ice area completed
+1991: Storm 48/95
+... sea ice area completed
+1991: Storm 49/95
+... sea ice area completed
+1991: Storm 50/95
+... sea ice area completed
+1991: Storm 51/95
+... sea ice area completed
+1991: Storm 52/95
+... sea ice area completed
+1991: Storm 53/95
+... sea ice area completed
+1991: Storm 54/95
+... sea ice area completed
+1991: Storm 55/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 56/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 57/95
+... sea ice area completed
+1991: Storm 58/95
+... sea ice area completed
+1991: Storm 59/95
+... sea ice area completed
+1991: Storm 60/95
+... sea ice area completed
+1991: Storm 61/95
+... sea ice area completed
+1991: Storm 62/95
+... sea ice area completed
+1991: Storm 63/95
+... sea ice area completed
+1991: Storm 64/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 65/95
+... sea ice area completed
+1991: Storm 66/95
+... sea ice area completed
+1991: Storm 67/95
+... sea ice area completed
+1991: Storm 68/95
+... sea ice area completed
+1991: Storm 69/95
+... sea ice area completed
+1991: Storm 70/95
+... sea ice area completed
+1991: Storm 71/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 72/95
+... sea ice area completed
+1991: Storm 73/95
+... sea ice area completed
+1991: Storm 74/95
+... sea ice area completed
+1991: Storm 75/95
+... sea ice area completed
+1991: Storm 76/95
+... sea ice area completed
+1991: Storm 77/95
+... sea ice area completed
+1991: Storm 78/95
+... sea ice area completed
+1991: Storm 79/95
+... sea ice area completed
+1991: Storm 80/95
+... sea ice area completed
+1991: Storm 81/95
+... sea ice area completed
+1991: Storm 82/95
+... sea ice area completed
+1991: Storm 83/95
+... sea ice area completed
+1991: Storm 84/95
+... sea ice area completed
+1991: Storm 85/95
+... sea ice area completed
+1991: Storm 86/95
+... sea ice area completed
+1991: Storm 87/95
+... sea ice area completed
+1991: Storm 88/95
+... sea ice area completed
+1991: Storm 89/95
+duplicate storm start
+... sea ice area completed
+1991: Storm 90/95
+... sea ice area completed
+1991: Storm 91/95
+... sea ice area completed
+1991: Storm 92/95
+... sea ice area completed
+1991: Storm 93/95
+... sea ice area completed
+1991: Storm 94/95
+... sea ice area completed
+1991: Storm 95/95
+... sea ice area completed
+
+--------------------------
+DONE CALCULATING:
+nstorms,  (95,)
+analysis ranges,  (22,)
+sea ice,  (22,)
+
+--------------------------
+
+
+--------------------------
+      EXPORT TO NC        
+--------------------------
+
+
+
+ netcdf saved!
+ 
+ 
+------------------
+       done!      
+------------------
+1991 elapsed time: 
+26.6 minutes
+
+
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_bt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'nsidc_nt_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'qa_of_cdr_seaice_conc' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'spatial_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+/home/mundi/miniconda3/envs/cyc_loc2/lib/python3.8/site-packages/xarray/conventions.py:512: SerializationWarning: variable 'temporal_interpolation_flag' has _Unsigned attribute but is not of integer type. Ignoring attribute.
+  new_vars[k] = decode_cf_variable(
+aa_storm_tseries1_sens.py:175: RuntimeWarning: invalid value encountered in greater
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+aa_storm_tseries1_sens.py:175: RuntimeWarning: invalid value encountered in less_equal
+  miz_points = np.where(((sic>miz[0]) & (sic<=miz[1])), 1, miz_points)
+aa_storm_tseries1_sens.py:309: RuntimeWarning: Mean of empty slice
+  sict = np.nanmean([sic1,sic2],axis=0)
+
+
