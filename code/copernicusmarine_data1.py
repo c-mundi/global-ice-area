@@ -26,8 +26,8 @@ import os, glob
 from datetime import timedelta
 
 import copernicusmarine
-copernicusmarine.login(username='cmundi', password='Oceans!52', force_overwrite=True)
-# copernicusmarine.login(username='cmundi', password='Oceans!52', overwrite_configuration_file=True)
+copernicusmarine.login()
+
 
 if not REMOTE:
     import functions as mf
