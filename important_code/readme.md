@@ -4,3 +4,8 @@
 - Additional tracking/plotting functions: functions.py, myfuncs_aa.py
 - Storm time series calculations: storm_tseries2.py
 - Creation of figures in paper: paper_figure2.py, taylor5.py, variable_corr1.py
+
+#### Update:
+- revised Polar-coordinate Scatter Plots (modified taylor diagrams): taylor5_revised.py
+- updates to plots after revisions: paper_figures_revision1.py
+- sensitivity to results addressed in revisions: major_revisions1.py
