@@ -445,7 +445,7 @@ def indiv_locations(years, census_path, area_path):
     return start_day, end_day, longitudes, latitudes
         
 
-def indiv_lines(years, census_path, area_path, si_path, sample_size=10):
+def indiv_lines(years, census_path, area_path, si_path, sample_size=10, miz_ind=1, si_name = '_seaice'):
     storm_counts = {}
     lines = {}
     start_day = {}
@@ -457,7 +457,6 @@ def indiv_lines(years, census_path, area_path, si_path, sample_size=10):
     latitudes = {}
     
     months = np.arange(1,12+1)
-    si_name = '_seaice'
     census_name = 'census_'
     
     for idx in np.arange(0,12):

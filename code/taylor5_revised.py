@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Sep 16 2025
+Updated May 18 2026 - revised paper
 
-taylor diagram code, v5
-- hopefully easier to edit/more streamlined
-- spearate long/short-term plots
+taylor diagram code, v5 (revised)
+- renamed axis title
+- added sign to storm sea ice impact
 
-long-term only, rework variables
+long-term (14-day) changes only
 
 https://gist.github.com/ycopin/3342888 | https://zenodo.org/records/5548061
 
@@ -61,7 +62,7 @@ class TaylorDiagram(object):
     """
 
     def __init__(self, refstd,
-                 fig=None, rect=111, label='_', srange=(0, 1.5), extend=False):
+                 fig=None, rect=111, label='_', srange=(0, 1.5), extend=False, pos_label=True):
         """
         Set up Taylor diagram axes, i.e. single quadrant polar
         plot, using `mpl_toolkits.axisartist.floating_axes`.
@@ -98,11 +99,21 @@ class TaylorDiagram(object):
         # Standard deviation axis extent (in units of reference stddev)
         self.smin = srange[0] * self.refstd
         self.smax = srange[1] * self.refstd
+        
+        # Standard deviation axis labels
+        rlocs2 = np.arange(0,0.9, 0.1)
+        gl2 = GF.FixedLocator(rlocs2)    # Positions
+        rlabs2 = [str(round(r,1)) for r in rlocs2]
+        if not pos_label: 
+            rlabs2 = ['-'+r if r!='0.0' else r for r in rlabs2] # add neg sign for ice-decr months
+        tf2 = GF.DictFormatter(dict(zip(rlocs2, rlabs2)))
 
+        # axis attributes
         ghelper = FA.GridHelperCurveLinear(
             tr,
             extremes=(0, self.tmax, self.smin, self.smax),
-            grid_locator1=gl1, tick_formatter1=tf1)
+            grid_locator1=gl1, tick_formatter1=tf1,
+            grid_locator2=gl2, tick_formatter2=tf2)
 
         if fig is None:
             fig = plt.figure()
@@ -122,7 +133,7 @@ class TaylorDiagram(object):
         # ax.tick_params(axis='both', which='major', labelsize=FS)
 
         ax.axis["left"].set_axis_direction("bottom")  # "X axis"
-        ax.axis["left"].label.set_text("Normalized Absolute Storm Impact")
+        ax.axis["left"].label.set_text("Normalized Change in Storm MIZ Ice Area")
         ax.axis["left"].label.set_size(FS)
         ax.axis["left"].major_ticklabels.set_size(FS)
 
@@ -132,11 +143,7 @@ class TaylorDiagram(object):
         ax.axis["right"].major_ticklabels.set_axis_direction(
             "bottom" if extend else "left")
         
-        # ax.text(1.0175, 0.025, 'Positive/Large\nValues',
-        #         horizontalalignment='center')
-        # ax.text(-1.0175,0.025, 'Negative/Small\nValues',
-        #         horizontalalignment='center')
-        
+        # add directional text        
         if 'wind_1' or 'ice_motion' in var_group:
             ax.text(0.925+0.05, 0.015, 'Equatorward', horizontalalignment='center', 
                     rotation=-90, fontsize=FS)
@@ -161,8 +168,9 @@ class TaylorDiagram(object):
         self._ax = ax                   # Graphical axes
         self.ax = ax.get_aux_axes(tr)   # Polar coordinates
 
-        # Collect sample points for latter use (e.g. legend)
+        # Collect sample points for later use (e.g. legend)
         self.samplePoints = [] #[l]
+ 
 
     def add_sample(self, stddev, corrcoef, *args, **kwargs):
         """
@@ -271,9 +279,6 @@ def add_table(table_values, dia, fs=11):
     the_table.set_fontsize(fs)
     
    
-    
-    
-    
 #%% data functions
 
 def setup_data(loc_ind, years, var_group):
@@ -491,7 +496,6 @@ def wave_plotting(swh_series, months, yi, t, var_entries, var_count, table_value
                         'label':dnames[yi]+' Waves', 'marker':markers[yi]})
     return var_entries
 
-
 def t2m_plotting(t2m_series,months, yi, t, var_entries, var_count, table_values, markers):
     for mm in months:
         t2m_lines = [np.array(s)-273.15 for s in t2m_series[mm] if len(s)==22]
@@ -593,7 +597,7 @@ def si_conc_plotting(sic, months, yi, t, var_entries, var_count, table_values, m
                            mfc=month_colors[mm-1], mec=MEC[t])
 
     var_entries.append({'ls':'-', 'lw':0,'color':c, 'mfc':c,'mec':c if yi==0 else MEC[yi],
-                    'label':dnames[yi]+' SI Concentration', 'marker':markers[yi]})
+                    'label':dnames[yi]+' SIC', 'marker':markers[yi]})
     return var_entries
 
 def ice_motion_plotting(motion_series, months, loc_ind, yi, t, var_entries, var_count, table_values, markers):
@@ -699,8 +703,8 @@ def variable_plotting(data, mean_lines, var_group, yi, loc_ind, t, var_entries, 
 # variable_groups = [['wind_0','wind_1', 'waves'], ['sst','t2m','ocn_prof']]
 # varnames = ['Mechanics', 'Thermodynamics']
 
-variable_groups = [['wind_1','t2m'], ['sst', 'waves','ocn_prof']]
-varnames = ['Atmosphere Forcing', 'Ocean Forcing']
+# variable_groups = [['wind_1','t2m'], ['sst', 'waves','ocn_prof']]
+# varnames = ['Atmosphere Forcing', 'Ocean Forcing']
 
 # variable_groups= [['sic_grad', 'si_conc', 'ice_motion']]
 # varnames = ['Sea Ice Properties']
@@ -714,35 +718,48 @@ varnames = ['Atmosphere Forcing', 'Ocean Forcing']
 # variable_groups = [['sst', 'waves','ocn_prof']]
 # varnames = ['Ocean Forcing']
 
-#################################################### paper setup
-# variable_groups = [['wind_1','sst', 'ice_motion']]
-# varnames = [''] # 'Main Forcing Variables'
-####################################################
+### test
+# variable_groups = [['wind_1']]
+# varnames = ['Meridional Winds']
 
 ### presentations
 # variable_groups = [['wind_1'], ['ice_motion'], ['sst']]
 # varnames = ['Meridional Winds', 'Ice Motion', 'SST']
 
+####################################################
+#################################################### paper setup (Fig. 3)
+variable_groups = [['wind_1','sst', 'ice_motion']]
+varnames = [''] # 'Main Forcing Variables'
+####################################################
+
+#########################
+# SUPPLEMENTAL FIGS 4-6 #
+#########################
+# variable_groups = [
+#                     ['wind_1','t2m'], 
+#                     ['sst', 'waves','ocn_prof'], 
+#                     ['sic_grad', 'si_conc', 'ice_motion']
+#                     ]
+# varnames = ['Atmosphere Forcing', 'Ocean Forcing','Sea Ice Properties']
 
 
-# variable_groups = [['waves','t2m']]
-# varnames = ['test']
 
-
-timing_ind = 1 # 0=1wk, 1=2wk
+timing_ind = 1 # 0=1wk, 1=2wk ### adjust to 0 for supp. fig. 3
 
 MGROUPS = [ [[9,10,11,12],[4,5,6,7]],
             [[4,5,6,7,8],[10,11,12]] ]
 MNAMES = ['Ice-Increasing Months', 'Ice-Decreasing Months']
 
-
+######### Supplemental Fig 7 #########
 # MGROUPS = [ [[1,2,3],[8,9]],
 #             [[1,2,3],[8,9]] ]
-# MNAMES = ['', '14-Day Change']
+# # MNAMES = ['Ice Maximum Months', 'Ice Maximum Months']
+# if timing_ind==0: MNAMES = ['One Week Mean', 'One Week Mean']
+# elif timing_ind==1: MNAMES = ['Two Week Mean', 'Two Week Mean']
 
-# MGROUPS = [[[4,5,6,7],[9,10,11,12]], [[10,11,12],[4,5,6,7,8]]]
-# MNAMES = ['Ice-Decreasing','Ice-Increasing']
 
+
+##### DATA LOOP
 for v, var_group in enumerate(variable_groups):
     
     fig = plt.figure(figsize=(16, 9))
@@ -764,7 +781,7 @@ for v, var_group in enumerate(variable_groups):
             
             subfigs[loc_ind][mg].suptitle(next(sf_labs)+'  '+loc+' '+str(months), fontsize=FS+3, y=1)  
             
-            dia = TaylorDiagram(0.55, fig=subfigs[loc_ind][mg], label='Reference', extend=True)
+            dia = TaylorDiagram(0.55, fig=subfigs[loc_ind][mg], extend=True, pos_label=[True, False][mg])
             dia.add_grid()                                  # Add grid
             dia._ax.axis[:].major_ticks.set_tick_out(True)  # Put ticks outward
             
