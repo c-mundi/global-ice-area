@@ -565,4 +565,170 @@ cbar1 = fig.colorbar(pcm, cax=cax1, orientation='horizontal')
 cax1.set_xlabel('Correlation');
 # cax1.tick_params(labelsize=10);
 
+#%% xxxxxxxxxxxxxxxxxx
+
+#%% combine decades: increase font!
+
+
+var_list = ['sia','si_conc','ocn_prof','sst', 
+            't2m', 'waves','wind_1','ice_motion']
+
+var_names = {'sia':'MIZ Ice\nArea', 'si_conc':'Mean SIC', 'ocn_prof':'Upper\nOcean\nTemperature',
+             'sst':'SST','t2m':'Air\nTemperature','wind_1':'Meridional\nWind',
+             'ice_motion':'Ice\nMotion','waves':'Waves '}
+
+timescale = 3
+
+if timescale==0: # full 3-week
+    idx1, idx2 = 0, 22
+elif timescale==1: # 3 days
+    idx1, idx2 = 7, 10
+elif timescale==2: # 1 week
+    idx1, idx2 = 7, 14
+elif timescale==3: # 2 weeks
+    idx1, idx2 = 7, 22
+else:
+    raise ValueError('Wrong timescale value')
+    
+LAG = 0
+
+corr_type = 1 #0=indiv corrs->mean, 1=mean lines->corr
+
+if corr_type == 0 : vmin=-0.3; vmax=0.3
+elif corr_type==1: vmin=-0.75; vmax=0.75
+
+cmap = cmo.balance.with_extremes(bad='gray')
+
+month_groups = [[[9,10,11,12], [4,5,6,7,8]],
+                [[4,5,6,7], [10,11,12]]
+                ]
+mgroup_names = ['Ice-Increasing', 'Ice-Decreasing']
+
+
+alph = iter(list(string.ascii_lowercase))
+scale1=1.15
+
+FS = 14
+
+#### set up figure
+fig = plt.figure(figsize = (10*len(month_groups[0])/scale1 + 0.25, 12/scale1))
+subfigs = fig.subfigures(2, len(month_groups), hspace=0.1, wspace=-0.025) # hemis, months
+
+
+# fig.subplots_adjust(wspace=0.5, hspace=1)
+
+for i1, title1 in enumerate(mgroup_names):
+    fig.text([0.175, 0.675][i1], 1.015, title1+' Months', fontsize=FS+2, style='italic')
+
+for loc_ind, loc in enumerate(hemi_names): 
+    path1 = root_paths[loc_ind]
+    
+    month_grouping = month_groups[loc_ind]
+    
+    for mi, mgroup in enumerate(month_grouping):
+   
+        subfigs[loc_ind][mi].suptitle(loc+', '+str(mgroup), fontsize=FS+1)
+        axes = subfigs[loc_ind][mi].subplots(1, 1) # combine decades
+        axes.set_title('Both Decades Combined (1982-1991, 2010-2019)', fontsize=FS-1)
+        if len(month_grouping)==1:axes=[axes]
+        
+        #### combine decade data ###!!!
+        data_combined = {v:{mm:[] for mm in months} for v in var_list}
+        for era, years in enumerate(decades):
+            data = setup_data(loc_ind, era, years, var_list)
+            for var0 in var_list:
+                for mm in months:
+                    for l in data[var0][mm]:
+                        data_combined[var0][mm].append(l)
+        data = data_combined
+    
+        #### compute correlations
+        monthly_corrs = []
+        for month in mgroup:
+            corr_array = []
+            for var1 in var_list:
+                this_var = data[var1][month]
+                this_corr = []
+                for var2 in var_list:
+                    comp_var = data[var2][month]
+                
+                    if corr_type == 0:
+                        all_corr = []
+                        for line1, line2 in zip(this_var, comp_var):
+                            if len(line1)!=22: line1 = np.array([np.nan]*22)
+                            if len(line2)!=22: line2 = np.array([np.nan]*22)
+                            
+                            line1 = [np.nan]*LAG + list(line1)
+                            
+                            line1a = line1[idx1:idx2]
+                            line2a = line2[idx1:idx2]
+                            
+                            mask = ~np.isnan(np.array(line1a)) & ~np.isnan(np.array(line2a))
+                            line1b =np.array(line1a)[mask]
+                            line2b =np.array(line2a)[mask]
+
+                            all_corr.append( np.corrcoef(line1b, line2b)[0,1] )
+                        mean_corr = np.nanmean(all_corr)
+                    elif corr_type == 1:
+                        all_lines1, all_lines2 = [],[]
+                        for line1, line2 in zip(this_var, comp_var):
+                            if len(line1)!=22: line1 = np.array([np.nan]*22)
+                            if len(line2)!=22: line2 = np.array([np.nan]*22)
+                            
+                            line1 = [np.nan]*LAG + list(line1)
+                            
+                            line1a = line1[idx1:idx2]
+                            line2a = line2[idx1:idx2]
+                            
+                            mask = ~np.isnan(np.array(line1a)) & ~np.isnan(np.array(line2a))
+                            line1b =np.array(line1a)[mask]
+                            line2b =np.array(line2a)[mask]
+                            
+                            if len(line1b)==(idx2-idx1) and len(line2b)==(idx2-idx1):
+                                all_lines1.append(line1b)
+                                all_lines2.append(line2b)
+                            
+                        mean_line1 = np.nanmean(all_lines1, axis=0)
+                        mean_line2 = np.nanmean(all_lines2, axis=0)
+
+                        mean_corr = np.corrcoef(mean_line1, mean_line2)[0,1]
+                        
+                    this_corr.append(mean_corr)
+                corr_array.append(this_corr)
+            monthly_corrs.append(np.array(corr_array))
+            
+        ### plot mean heatmap
+        mean_corr = np.nanmean(monthly_corrs, axis=0)
+        mask1 = np.where(mean_corr>0.99999, True, False)
+        
+        ax = sns.heatmap(mean_corr, ax = axes,
+                        vmin=vmin, vmax=vmax, cmap=cmap, cbar = False,
+                        cbar_kws={'label':'Correlation'}, annot=True,
+                        xticklabels=[var_names[v] for v in var_list], #var_list, 
+                        yticklabels=[var_names[v] for v in var_list], #var_list,
+                        mask=mask1,
+                        annot_kws={"fontsize":FS-1})
+        ax.tick_params(axis='x', rotation=0)
+        ax.tick_params(axis='y', rotation=0)
+        
+        xticks = ['Mean\nSIC' if xt.get_text()=='Mean SIC' else xt.get_text() for xt in ax.get_xticklabels()]
+        yticks = ['Upper Ocean\nTemperature' if yt.get_text()=='Upper\nOcean\nTemperature' else yt.get_text() for yt in ax.get_yticklabels()]
+        ax.set_xticklabels( xticks, fontsize=FS)
+        ax.set_yticklabels( yticks, fontsize=FS)
+        
+        ax.text(0.0, 1.015, '('+next(alph)+')', 
+                transform=ax.transAxes, 
+                zorder=50, fontsize=FS)
+            
+            
+    
+# add separate colorbar
+pcm = axes.pcolormesh(np.zeros((2,2)),np.zeros((2,2)),np.zeros((2,2)), 
+                           cmap=cmap, vmin=vmin, vmax=vmax)
+cax1 = fig.add_axes([0.33,-0.066,0.33,0.033]) 
+cbar1 = fig.colorbar(pcm, cax=cax1, orientation='horizontal')
+cax1.set_xlabel('Correlation', fontsize=FS);
+cax1.tick_params(labelsize=FS);
+
+
 #%% end
