@@ -27,6 +27,7 @@ from osgeo import gdal
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 from scipy.interpolate import griddata
+import matplotlib.patches as mpatches
 
 import functions as fx
 
@@ -89,6 +90,28 @@ def geoplot_bbox(ax, bbox, color='k', lw=2):
     # plot
     for x1, y1 in zip([x_greater, x_lesser], [y_greater, y_lesser]):
         ax.plot(x1, y1, color=color, lw=lw, transform = ccrs.PlateCarree())
+        
+def align_zeros(axes):
+
+    ylims_current = {}   #  Current ylims
+    ylims_mod     = {}   #  Modified ylims
+    deltas        = {}   #  ymax - ymin for ylims_current
+    ratios        = {}   #  ratio of the zero point within deltas
+
+    for ax in axes:
+        ylims_current[ax] = list(ax.get_ylim())
+                        # Need to convert a tuple to a list to manipulate elements.
+        deltas[ax]        = ylims_current[ax][1] - ylims_current[ax][0]
+        ratios[ax]        = -ylims_current[ax][0]/deltas[ax]
+    
+    for ax in axes:      # Loop through all axes to ensure each ax fits in others.
+        ylims_mod[ax]     = [np.nan,np.nan]   # Construct a blank list
+        ylims_mod[ax][1]  = max(deltas[ax] * (1-np.array(list(ratios.values()))))
+                        # Choose the max value among (delta for ax)*(1-ratios),
+                        # and apply it to ymax for ax
+        ylims_mod[ax][0]  = min(-deltas[ax] * np.array(list(ratios.values())))
+                        # Do the same for ymin
+        ax.set_ylim(tuple(ylims_mod[ax]))
 
 #%% FIGURE 1
 print(); print('*** CASE STUDY PLOT ***')
@@ -384,7 +407,190 @@ axes2[0][1].legend(loc='upper right', ncol=1, handletextpad=0.5, handlelength=1,
 ## POLAR COORDINATE SCATTER PLOT
 
 #%% FIGURE 4
-
 print(); print('*** GLOBAL BARS ***')
+
+# bar plot shades (3,7,14-days)
+hemi_colors = ['#01665e','#8c510a']
+hemi_colors2 = [['#c7eae5','#5ab4ac','#01665e'],['#f6e8c3','#d8b365','#8c510a']]
+shades = ['#f0f0f0','#bdbdbd','#636363'] # grayscale sum
+
+XSPACING = [0,0.2,0.4]
+INDS = [7+3, 7+7, 7+14]
+WIDTH = XSPACING[1]-XSPACING[0]
+HATCH = '/////'
+alphbar = ['a','b','c','d']
+# errorbar 
+capsize=2
+eb_color= hemi_colors 
+
+#### set up
+fig2, axes2 = plt.subplots(2,1, figsize=(10,12), sharex=True, sharey=True)
+for i, ax2 in enumerate(axes2.flatten()):
+    ax2.axhline(0, ls='-', color='k', lw=1)
+    ax2.set_xlim(-0.5,14.25)
+    ax2.set_xticks(list(np.arange(XSPACING[1], 12+XSPACING[1]))+[13.175])
+    ax2.yaxis.set_tick_params(labelleft=True)
+    ax2.tick_params(axis='both', labelsize=fs)
+    ax2.text(0.0225, 1.025, '('+alphbar[i]+')',transform=ax2.transAxes, 
+              fontsize=fs, bbox={'facecolor': 'white', 'alpha': 0, 'pad':5, 
+                                  'edgecolor':'white', 'lw':0.75},zorder=50)
+    ax2.set_ylabel('Relative Change in Area '+r'($\times 10^6$ km$^2$)',fontsize=fs+1)
+axes2[0].set_title('MIZ Ice Area Changes in Each Hemisphere', fontsize=fs+2)
+axes2[1].set_title('Global Sum', fontsize=fs+2)
+plt.subplots_adjust(hspace=0.275)
+
+# patches for legend
+circ1 = mpatches.Patch( facecolor='gray', edgecolor='k', alpha=0.5,
+                       label=str(decades[1][0])+'-'+str(decades[1][-1]))
+circ2 = mpatches.Patch( facecolor='gray', edgecolor='k', alpha=0.5,hatch=HATCH,
+                       label=str(decades[0][0])+'-'+str(decades[0][-1]))
+ax2.legend(handles = [circ2,circ1], loc='lower left',
+           fontsize=fs-1, handletextpad=0.5, handlelength=1.5)
+fig2.subplots_adjust(wspace=0.1)
+
+# ----------------
+#### data and plot
+# ----------------
+
+for li, loc in enumerate(['Arctic','Antarctic']):
+    axes2[0].plot([],[], lw=6, color=hemi_colors[li], label=loc)
+    axes2[0].legend(loc='lower left', fontsize=fs, handletextpad=0.5, handlelength=1.25)
+    
+    
+    # data loop, bar plot
+    for yi, years in enumerate(decades):
+        yr_title = str(years[0])+'-'+str(years[-1])
+        
+        bars = csv_open(MAIN+'figure_4/'+ 'L'+str(li)+'_'+'Y'+str(yi)+'_bars.csv')
+        if yi==1:
+            min_errors = csv_open(MAIN+'figure_4/'+ 'L'+str(li)+'_'+'Y'+str(yi)+'_errors_min.csv')
+            max_errors = csv_open(MAIN+'figure_4/'+ 'L'+str(li)+'_'+'Y'+str(yi)+'_errors_max.csv')
+            
+        
+        for mi, mm in enumerate(months):
+            xvals = mi+np.array(XSPACING)
+            
+            diffs = bars[mi]
+            
+            # plot bars
+            if yi==1:
+                axes2[0].bar(xvals, diffs, width=WIDTH,
+                        facecolor=hemi_colors2[li], alpha=0.5, edgecolor=hemi_colors[li], lw=2)
+
+                # plot spread bars
+                axes2[0].errorbar(xvals, diffs, yerr=[min_errors[mi], max_errors[mi]], 
+                                       fmt='none', capsize=capsize, ecolor=eb_color[li])
+                
+            else:
+                axes2[0].bar(xvals[-1]+WIDTH, diffs[-1], width=WIDTH,
+                        facecolor=hemi_colors[li], alpha=0.5, 
+                        edgecolor=hemi_colors[li], hatch=HATCH, lw=2)
+                
+
+        ### TOTAL
+        sums = csv_open(MAIN+'figure_4/'+ 'L'+str(li)+'_'+'Y'+str(yi)+'_sums.csv')
+        if yi==1:
+            axes2[0].bar(xvals+1.33+li, np.squeeze(sums), width=XSPACING[1]-XSPACING[0],
+                    facecolor=hemi_colors2[li], alpha=0.5, edgecolor=hemi_colors[li], lw=2)
+        else:
+            axes2[0].bar(xvals[-1]+WIDTH+1.33+li, sums[-1], width=XSPACING[1]-XSPACING[0],
+                    facecolor=hemi_colors[li], alpha=0.5, edgecolor=hemi_colors[li], hatch=HATCH, lw=2)
+            
+        if yi==1:
+            sum_errors = csv_open(MAIN+'figure_4/'+ 'L'+str(li)+'_'+'Y'+str(yi)+'_sumerrors.csv')
+            axes2[0].errorbar(xvals+1.33+li, np.squeeze(sums), yerr=sum_errors,
+                                   fmt='none', capsize=capsize, ecolor=eb_color[li])
+       
+        axes2[0].axvline(1+xvals[0], ls='--', color='k', lw=0.85)
+        
+#### sum
+for yi, years in enumerate(decades):
+    
+    heights = csv_open(MAIN+'figure_4/'+ 'Y'+str(yi)+'_global_sums.csv')
+    
+    bars0 = csv_open(MAIN+'figure_4/'+ 'L'+str(0)+'_'+'Y'+str(yi)+'_bars.csv')
+    bars1 = csv_open(MAIN+'figure_4/'+ 'L'+str(1)+'_'+'Y'+str(yi)+'_bars.csv')
+    bars1 = np.where(np.isnan(bars1), 0, bars1)
+    
+    total_sum_errors_min = csv_open(MAIN+'figure_4/'+ 'total_sum_errors_min.csv')
+    total_sum_errors_max = csv_open(MAIN+'figure_4/'+ 'total_sum_errors_max.csv')
+    
+    for mi, mm in enumerate(months):
+        xvals = mi+np.array(XSPACING)
+        
+        sum1 = heights[mi]
+        
+            # original
+        fcs = [hemi_colors2[0][i] if np.abs(bars0[mi][i])>np.abs(bars1[mi][i]) else hemi_colors2[1][i] for i in [0,1,2]]
+        ecs = [hemi_colors[0] if np.abs(bars0[mi][i])>np.abs(bars1[mi][i]) else hemi_colors[1] for i in [0,1,2]]
+        
+        if yi==1:
+            axes2[1].bar(xvals, sum1, width=WIDTH,
+                    facecolor=fcs, alpha=0.5, edgecolor=ecs, lw=2)
+            
+            # add spread bars!
+            axes2[1].errorbar(xvals, heights[mi], 
+                            yerr=[total_sum_errors_min[mi], total_sum_errors_max[mi]],
+                            fmt='none', capsize=capsize, ecolor='#262626')
+            
+        else:
+            axes2[1].bar(xvals[-1]+WIDTH, sum1[-1], width=WIDTH,
+                    facecolor=ecs[-1], alpha=0.5, edgecolor=ecs[-1], hatch=HATCH,lw=2)
+            
+
+    # total sum bars
+    if yi==1:
+        axes2[1].bar(xvals+1.33+0.5, np.nansum(heights,axis=0), width=WIDTH,
+                facecolor=shades, alpha=0.5, edgecolor='k', lw=2)
+    else:
+        axes2[1].bar(xvals[-1]+WIDTH+1.33+0.5, np.nansum(heights,axis=0)[-1], width=WIDTH,
+                facecolor='k', alpha=0.5, edgecolor='k', hatch=HATCH, lw=2)
+    
+    axes2[1].axvline(1+xvals[0], ls='--', color='k', lw=0.85)
+        
+        
+# total sum error
+ht1 =  np.nansum(heights, axis=0)
+axes2[1].errorbar(xvals+1.33+0.5,  ht1, 
+                yerr=[total_sum_errors_min[-1], total_sum_errors_max[-1]],
+                fmt='none', capsize=capsize+0.5, ecolor='k')
+
+print('* total spread')
+print(ht1*100/np.nansum(sums[1], axis=0))
+
+# -------------------------------------
+#### add insolation curve to top plot
+# -------------------------------------
+import pickle
+
+monthly_values = pickle.load(open(MAIN+'figure_4/'+'insolation_monthly.pkl', 'rb'))
+
+monthly_x = []
+for month in np.arange(1,12+1):
+    daynum_range = [datetime(2010,month,1).timetuple().tm_yday,
+                    datetime(2010,month,calendar.monthrange(2010,month)[-1]).timetuple().tm_yday]
+    monthly_x.append(np.nanmean(daynum_range))
+    
+
+axi = axes2[0].twinx()
+axi.tick_params(axis='y', labelsize=fs)
+axi.set_ylabel(r'MIZ-Area-Weighted Insolation (W m$^{-2}$)', fontsize=fs+1)
+
+for loc_ind, loc in enumerate(['Arctic', 'Antarctic']):
+    axi.plot(np.arange(XSPACING[1], 12+XSPACING[1]), np.nanmean(monthly_values[loc_ind], axis=0), 
+             lw=1.5, ls=['-','--'][loc_ind], color=['#01665e','#8c510a'][loc_ind], label=loc, zorder=-5000)
+
+axes2[0].set_ylim([-40,40])
+axi.set_ylim([-515,515])
+align_zeros([axes2[0], axi])
+
+axi.set_yticks([0,150,300,450]);
+
+# xtick labels (monthly)
+axes2[0].set_xticklabels([calendar.month_abbr[m] for m in np.arange(1,12+1)]+['Total'], fontsize=fs)
+axes2[1].set_xticklabels([calendar.month_abbr[m] for m in np.arange(1,12+1)]+['Total'], fontsize=fs)
+for ax in axes2.flatten():
+    ax.xaxis.set_tick_params(labelbottom=True)
+    ax.yaxis.set_tick_params(labelleft=True)
 
 #%% end
