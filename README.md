@@ -20,5 +20,5 @@ insolation_daily.pkl, insolation_monthly.pkl : calculated mean incoming solar ra
 mean_ice_sic.npy, mean_sic.npy : saved sea ice values
 
 -----
-source_data/ : saved output for manuscript figures
-> demo.py recreates figures from saved data
+source_data : saved output for manuscript figures
+- demo.py recreates figures from saved data
